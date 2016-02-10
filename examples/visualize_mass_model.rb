@@ -7,14 +7,14 @@ include NormGeometry4
 
 def run_simulation(num, random)
   energy = 1000.0 # keV
-  posx = 1.0 #cm
-  posy = 1.0 #cm
+  posx = 0.0 #cm
+  posy = 0.0 #cm
   posz = 100 #cm
 
   dirx = 0.0
   diry = 0.0
   dirz = -1.0
-  thetamax = 0.0
+  thetamax = 0.05
   output = "vis_ene#{energy}_posx#{posx}cm_posy#{posy}cm_poz#{posz}cm_seed#{random}.root"
 
   sim = ComptonSoft::Simulation.new
@@ -48,7 +48,7 @@ def run_simulation(num, random)
 end
 
 ### main ###
-num = 10
+num = 1000
 run_id = 0
 random = run_id
 run_simulation(num, random)

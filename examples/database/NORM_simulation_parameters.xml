@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="/Users/takeda/soft/ComptonSoft/xmlstyle/simulation_param_v4.xsl" ?>
+<simulation>
+  <name>NORM</name>
+  <comment></comment>
+  <sd_check />
+
+  <sensitive_detectors>
+   
+    <sensitive_detector>
+      <name>CdTePad_Logical</name>
+      <type>2DPixel</type>
+      <id_method>path</id_method>
+      <layer_offset>1</layer_offset>
+      <simulation_param_common>
+        <charge_collection mode="0"/>
+        <diffusion mode="0"/>
+      </simulation_param_common>
+      <detector_list>
+        <detector id="100" path="Norm/ComptonCamera/CdTeBtmModule00/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="101" path="Norm/ComptonCamera/CdTeBtmModule00/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="102" path="Norm/ComptonCamera/CdTeBtmModule00/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="103" path="Norm/ComptonCamera/CdTeBtmModule00/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="110" path="Norm/ComptonCamera/CdTeBtmModule01/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="111" path="Norm/ComptonCamera/CdTeBtmModule01/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="112" path="Norm/ComptonCamera/CdTeBtmModule01/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="113" path="Norm/ComptonCamera/CdTeBtmModule01/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="120" path="Norm/ComptonCamera/CdTeBtmModule02/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="121" path="Norm/ComptonCamera/CdTeBtmModule02/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="122" path="Norm/ComptonCamera/CdTeBtmModule02/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="123" path="Norm/ComptonCamera/CdTeBtmModule02/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="130" path="Norm/ComptonCamera/CdTeBtmModule03/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="131" path="Norm/ComptonCamera/CdTeBtmModule03/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="132" path="Norm/ComptonCamera/CdTeBtmModule03/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="133" path="Norm/ComptonCamera/CdTeBtmModule03/CdTePadBtm03"><simulation_param></simulation_param></detector>
+	<detector id="140" path="Norm/ComptonCamera/CdTeBtmModule04/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="141" path="Norm/ComptonCamera/CdTeBtmModule04/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="142" path="Norm/ComptonCamera/CdTeBtmModule04/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="143" path="Norm/ComptonCamera/CdTeBtmModule04/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="150" path="Norm/ComptonCamera/CdTeBtmModule05/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="151" path="Norm/ComptonCamera/CdTeBtmModule05/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="152" path="Norm/ComptonCamera/CdTeBtmModule05/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="153" path="Norm/ComptonCamera/CdTeBtmModule05/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="160" path="Norm/ComptonCamera/CdTeBtmModule06/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="161" path="Norm/ComptonCamera/CdTeBtmModule06/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="162" path="Norm/ComptonCamera/CdTeBtmModule06/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="163" path="Norm/ComptonCamera/CdTeBtmModule06/CdTePadBtm03"><simulation_param></simulation_param></detector>
+        <detector id="170" path="Norm/ComptonCamera/CdTeBtmModule07/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="171" path="Norm/ComptonCamera/CdTeBtmModule07/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="172" path="Norm/ComptonCamera/CdTeBtmModule07/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="173" path="Norm/ComptonCamera/CdTeBtmModule07/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+	<detector id="180" path="Norm/ComptonCamera/CdTeBtmModule08/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="181" path="Norm/ComptonCamera/CdTeBtmModule08/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="182" path="Norm/ComptonCamera/CdTeBtmModule08/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="183" path="Norm/ComptonCamera/CdTeBtmModule08/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="190" path="Norm/ComptonCamera/CdTeBtmModule09/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="191" path="Norm/ComptonCamera/CdTeBtmModule09/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="192" path="Norm/ComptonCamera/CdTeBtmModule09/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="193" path="Norm/ComptonCamera/CdTeBtmModule09/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="200" path="Norm/ComptonCamera/CdTeBtmModule10/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="201" path="Norm/ComptonCamera/CdTeBtmModule10/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="202" path="Norm/ComptonCamera/CdTeBtmModule10/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="203" path="Norm/ComptonCamera/CdTeBtmModule10/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="210" path="Norm/ComptonCamera/CdTeBtmModule11/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="211" path="Norm/ComptonCamera/CdTeBtmModule11/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="212" path="Norm/ComptonCamera/CdTeBtmModule11/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="213" path="Norm/ComptonCamera/CdTeBtmModule11/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="220" path="Norm/ComptonCamera/CdTeBtmModule12/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="221" path="Norm/ComptonCamera/CdTeBtmModule12/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="222" path="Norm/ComptonCamera/CdTeBtmModule12/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="223" path="Norm/ComptonCamera/CdTeBtmModule12/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+	<detector id="230" path="Norm/ComptonCamera/CdTeBtmModule13/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="231" path="Norm/ComptonCamera/CdTeBtmModule13/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="232" path="Norm/ComptonCamera/CdTeBtmModule13/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="233" path="Norm/ComptonCamera/CdTeBtmModule13/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="240" path="Norm/ComptonCamera/CdTeBtmModule14/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="241" path="Norm/ComptonCamera/CdTeBtmModule14/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="242" path="Norm/ComptonCamera/CdTeBtmModule14/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="243" path="Norm/ComptonCamera/CdTeBtmModule14/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+	<detector id="250" path="Norm/ComptonCamera/CdTeBtmModule15/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="251" path="Norm/ComptonCamera/CdTeBtmModule15/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="252" path="Norm/ComptonCamera/CdTeBtmModule15/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="253" path="Norm/ComptonCamera/CdTeBtmModule15/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="260" path="Norm/ComptonCamera/CdTeBtmModule16/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="261" path="Norm/ComptonCamera/CdTeBtmModule16/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="262" path="Norm/ComptonCamera/CdTeBtmModule16/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="263" path="Norm/ComptonCamera/CdTeBtmModule16/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="270" path="Norm/ComptonCamera/CdTeBtmModule17/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="271" path="Norm/ComptonCamera/CdTeBtmModule17/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="272" path="Norm/ComptonCamera/CdTeBtmModule17/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="273" path="Norm/ComptonCamera/CdTeBtmModule17/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="280" path="Norm/ComptonCamera/CdTeBtmModule18/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="281" path="Norm/ComptonCamera/CdTeBtmModule18/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="282" path="Norm/ComptonCamera/CdTeBtmModule18/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="283" path="Norm/ComptonCamera/CdTeBtmModule18/CdTePadBtm03"><simulation_param></simulation_param></detector>
+
+        <detector id="290" path="Norm/ComptonCamera/CdTeBtmModule19/CdTePadBtm00"><simulation_param></simulation_param></detector>
+	<detector id="291" path="Norm/ComptonCamera/CdTeBtmModule19/CdTePadBtm01"><simulation_param></simulation_param></detector>
+	<detector id="292" path="Norm/ComptonCamera/CdTeBtmModule19/CdTePadBtm02"><simulation_param></simulation_param></detector>
+	<detector id="293" path="Norm/ComptonCamera/CdTeBtmModule19/CdTePadBtm03"><simulation_param></simulation_param></detector>
+	
+      </detector_list>
+    </sensitive_detector>
+  </sensitive_detectors>
+</simulation>

@@ -1,0 +1,3494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/Users/takeda/soft/ComptonSoft/xmlstyle/detector_config_v3.xsl"?>
+<configuration>
+  <name>NORM</name>
+  <length_unit>mm</length_unit>
+  <detectors>
+    <detector id="100">
+      <type>2DPixel</type>
+      <name>CdTeBB:0100</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-0.900</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="101">
+      <type>2DPixel</type>
+      <name>CdTeBB:0101</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-0.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="102">
+      <type>2DPixel</type>
+      <name>CdTeBB:0102</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-0.900</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="103">
+      <type>2DPixel</type>
+      <name>CdTeBB:0103</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-0.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="110">
+      <type>2DPixel</type>
+      <name>CdTeBB:0110</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-4.500</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="111">
+      <type>2DPixel</type>
+      <name>CdTeBB:0111</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-4.500</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="112">
+      <type>2DPixel</type>
+      <name>CdTeBB:0112</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-4.500</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="113">
+      <type>2DPixel</type>
+      <name>CdTeBB:0113</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-4.500</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="120">
+      <type>2DPixel</type>
+      <name>CdTeBB:0120</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-8.100</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="121">
+      <type>2DPixel</type>
+      <name>CdTeBB:0121</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-8.100</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="122">
+      <type>2DPixel</type>
+      <name>CdTeBB:0122</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-8.100</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="123">
+      <type>2DPixel</type>
+      <name>CdTeBB:0123</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-8.100</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="130">
+      <type>2DPixel</type>
+      <name>CdTeBB:0130</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-11.700</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="131">
+      <type>2DPixel</type>
+      <name>CdTeBB:0131</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-11.700</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="132">
+      <type>2DPixel</type>
+      <name>CdTeBB:0132</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-11.700</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="133">
+      <type>2DPixel</type>
+      <name>CdTeBB:0133</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-11.700</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="140">
+      <type>2DPixel</type>
+      <name>CdTeBB:0140</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-15.300</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="141">
+      <type>2DPixel</type>
+      <name>CdTeBB:0141</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-15.300</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="142">
+      <type>2DPixel</type>
+      <name>CdTeBB:0142</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-15.300</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="143">
+      <type>2DPixel</type>
+      <name>CdTeBB:0143</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-15.300</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="150">
+      <type>2DPixel</type>
+      <name>CdTeBB:0150</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-18.900</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="151">
+      <type>2DPixel</type>
+      <name>CdTeBB:0151</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-18.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="152">
+      <type>2DPixel</type>
+      <name>CdTeBB:0152</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-18.900</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="153">
+      <type>2DPixel</type>
+      <name>CdTeBB:0153</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-18.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="160">
+      <type>2DPixel</type>
+      <name>CdTeBB:0160</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-22.500</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="161">
+      <type>2DPixel</type>
+      <name>CdTeBB:0161</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-22.500</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="162">
+      <type>2DPixel</type>
+      <name>CdTeBB:0162</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-22.500</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="163">
+      <type>2DPixel</type>
+      <name>CdTeBB:0163</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-22.500</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="170">
+      <type>2DPixel</type>
+      <name>CdTeBB:0170</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-26.100</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="171">
+      <type>2DPixel</type>
+      <name>CdTeBB:0171</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-26.100</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="172">
+      <type>2DPixel</type>
+      <name>CdTeBB:0172</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-26.100</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="173">
+      <type>2DPixel</type>
+      <name>CdTeBB:0173</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-26.100</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="180">
+      <type>2DPixel</type>
+      <name>CdTeBB:0180</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-29.700</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="181">
+      <type>2DPixel</type>
+      <name>CdTeBB:0181</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-29.700</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="182">
+      <type>2DPixel</type>
+      <name>CdTeBB:0182</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-29.700</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="183">
+      <type>2DPixel</type>
+      <name>CdTeBB:0183</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-29.700</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="190">
+      <type>2DPixel</type>
+      <name>CdTeBB:0190</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-33.300</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="191">
+      <type>2DPixel</type>
+      <name>CdTeBB:0191</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-33.300</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="192">
+      <type>2DPixel</type>
+      <name>CdTeBB:0192</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-33.300</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="193">
+      <type>2DPixel</type>
+      <name>CdTeBB:0193</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-33.300</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="200">
+      <type>2DPixel</type>
+      <name>CdTeBB:0200</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-36.900</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="201">
+      <type>2DPixel</type>
+      <name>CdTeBB:0201</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-36.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="202">
+      <type>2DPixel</type>
+      <name>CdTeBB:0202</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-36.900</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="203">
+      <type>2DPixel</type>
+      <name>CdTeBB:0203</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-36.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="210">
+      <type>2DPixel</type>
+      <name>CdTeBB:0210</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-40.500</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="211">
+      <type>2DPixel</type>
+      <name>CdTeBB:0211</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-40.500</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="212">
+      <type>2DPixel</type>
+      <name>CdTeBB:0212</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-40.500</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="213">
+      <type>2DPixel</type>
+      <name>CdTeBB:0213</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-40.500</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="220">
+      <type>2DPixel</type>
+      <name>CdTeBB:0220</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-44.100</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="221">
+      <type>2DPixel</type>
+      <name>CdTeBB:0221</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-44.100</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="222">
+      <type>2DPixel</type>
+      <name>CdTeBB:0222</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-44.100</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="223">
+      <type>2DPixel</type>
+      <name>CdTeBB:0223</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-44.100</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="230">
+      <type>2DPixel</type>
+      <name>CdTeBB:0230</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-47.700</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="231">
+      <type>2DPixel</type>
+      <name>CdTeBB:0231</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-47.700</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="232">
+      <type>2DPixel</type>
+      <name>CdTeBB:0232</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-47.700</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="233">
+      <type>2DPixel</type>
+      <name>CdTeBB:0233</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-47.700</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="240">
+      <type>2DPixel</type>
+      <name>CdTeBB:0240</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-51.300</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="241">
+      <type>2DPixel</type>
+      <name>CdTeBB:0241</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-51.300</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="242">
+      <type>2DPixel</type>
+      <name>CdTeBB:0242</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-51.300</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="243">
+      <type>2DPixel</type>
+      <name>CdTeBB:0243</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-51.300</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="250">
+      <type>2DPixel</type>
+      <name>CdTeBB:0250</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-54.900</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="251">
+      <type>2DPixel</type>
+      <name>CdTeBB:0251</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-54.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="252">
+      <type>2DPixel</type>
+      <name>CdTeBB:0252</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-54.900</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="253">
+      <type>2DPixel</type>
+      <name>CdTeBB:0253</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-54.900</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="260">
+      <type>2DPixel</type>
+      <name>CdTeBB:0260</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-60.825</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="261">
+      <type>2DPixel</type>
+      <name>CdTeBB:0261</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-60.825</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="262">
+      <type>2DPixel</type>
+      <name>CdTeBB:0262</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-60.825</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="263">
+      <type>2DPixel</type>
+      <name>CdTeBB:0263</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-60.825</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="270">
+      <type>2DPixel</type>
+      <name>CdTeBB:0270</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-65.225</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="271">
+      <type>2DPixel</type>
+      <name>CdTeBB:0271</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-65.225</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="272">
+      <type>2DPixel</type>
+      <name>CdTeBB:0272</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-65.225</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="273">
+      <type>2DPixel</type>
+      <name>CdTeBB:0273</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-65.225</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="280">
+      <type>2DPixel</type>
+      <name>CdTeBB:0280</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-69.625</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="281">
+      <type>2DPixel</type>
+      <name>CdTeBB:0281</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-69.625</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="282">
+      <type>2DPixel</type>
+      <name>CdTeBB:0282</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-69.625</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="283">
+      <type>2DPixel</type>
+      <name>CdTeBB:0283</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-69.625</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="290">
+      <type>2DPixel</type>
+      <name>CdTeBB:0290</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>13.875</y>
+        <z>-74.025</z>
+      </position>
+      <direction_xaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="291">
+      <type>2DPixel</type>
+      <name>CdTeBB:0291</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>13.875</y>
+        <z>-74.025</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="292">
+      <type>2DPixel</type>
+      <name>CdTeBB:0292</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>-13.875</x>
+        <y>-13.875</y>
+        <z>-74.025</z>
+      </position>
+      <direction_xaxis>
+        <x>-1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+    <detector id="293">
+      <type>2DPixel</type>
+      <name>CdTeBB:0293</name>
+      <geometry>
+        <widthx>26.75</widthx>
+        <widthy>26.75</widthy>
+        <thickness>0.75</thickness>
+        <offsetx>0.575</offsetx>
+        <offsety>0.575</offsety>
+      </geometry>
+      <pixel>
+        <numx>8</numx>
+        <numy>8</numy>
+        <pitchx>3.2</pitchx>
+        <pitchy>3.2</pitchy>
+      </pixel>
+      <position>
+        <x>13.875</x>
+        <y>-13.875</y>
+        <z>-74.025</z>
+      </position>
+      <direction_xaxis>
+        <x>0.0</x>
+        <y>-1.0</y>
+        <z>0.0</z>
+      </direction_xaxis>
+      <direction_yaxis>
+        <x>1.0</x>
+        <y>0.0</y>
+        <z>0.0</z>
+      </direction_yaxis>
+      <energy_priority>cathode</energy_priority>
+      <readout>
+        <section num_channels="64" electrode_side="cathode"/>
+      </readout>
+    </detector>
+  </detectors>
+  <readout>
+    <module id="0">
+      <section>
+        <detector id="102" section="0"/>
+      </section>
+      <section>
+        <detector id="122" section="0"/>
+      </section>
+      <section>
+        <detector id="142" section="0"/>
+      </section>
+      <section>
+        <detector id="162" section="0"/>
+      </section>
+    </module>
+    <module id="1">
+      <section>
+        <detector id="182" section="0"/>
+      </section>
+      <section>
+        <detector id="202" section="0"/>
+      </section>
+      <section>
+        <detector id="222" section="0"/>
+      </section>
+      <section>
+        <detector id="242" section="0"/>
+      </section>
+    </module>
+    <module id="2">
+      <section>
+        <detector id="101" section="0"/>
+      </section>
+      <section>
+        <detector id="121" section="0"/>
+      </section>
+      <section>
+        <detector id="141" section="0"/>
+      </section>
+      <section>
+        <detector id="161" section="0"/>
+      </section>
+    </module>
+    <module id="3">
+      <section>
+        <detector id="181" section="0"/>
+      </section>
+      <section>
+        <detector id="201" section="0"/>
+      </section>
+      <section>
+        <detector id="221" section="0"/>
+      </section>
+      <section>
+        <detector id="241" section="0"/>
+      </section>
+    </module>
+    <module id="4">
+      <section>
+        <detector id="262" section="0"/>
+      </section>
+      <section>
+        <detector id="282" section="0"/>
+      </section>
+      <section>
+        <detector id="281" section="0"/>
+      </section>
+      <section>
+        <detector id="262" section="0"/>
+      </section>
+    </module>
+    <module id="5">
+    </module>
+    <module id="6">
+    </module>
+    <module id="7">
+      <section>
+        <detector id="113" section="0"/>
+      </section>
+      <section>
+        <detector id="133" section="0"/>
+      </section>
+      <section>
+        <detector id="153" section="0"/>
+      </section>
+      <section>
+        <detector id="173" section="0"/>
+      </section>
+    </module>
+    <module id="8">
+      <section>
+        <detector id="193" section="0"/>
+      </section>
+      <section>
+        <detector id="213" section="0"/>
+      </section>
+      <section>
+        <detector id="233" section="0"/>
+      </section>
+      <section>
+        <detector id="253" section="0"/>
+      </section>
+    </module>
+    <module id="9">
+      <section>
+        <detector id="112" section="0"/>
+      </section>
+      <section>
+        <detector id="132" section="0"/>
+      </section>
+      <section>
+        <detector id="152" section="0"/>
+      </section>
+      <section>
+        <detector id="172" section="0"/>
+      </section>
+    </module>
+    <module id="10">
+      <section>
+        <detector id="192" section="0"/>
+      </section>
+      <section>
+        <detector id="212" section="0"/>
+      </section>
+      <section>
+        <detector id="232" section="0"/>
+      </section>
+      <section>
+        <detector id="252" section="0"/>
+      </section>
+    </module>
+    <module id="11">
+      <section>
+        <detector id="273" section="0"/>
+      </section>
+      <section>
+        <detector id="293" section="0"/>
+      </section>
+      <section>
+        <detector id="292" section="0"/>
+      </section>
+      <section>
+        <detector id="272" section="0"/>
+      </section>
+    </module>
+    <module id="12">
+    </module>
+    <module id="13">
+    </module>
+    <module id="14">
+      <section>
+        <detector id="100" section="0"/>
+      </section>
+      <section>
+        <detector id="120" section="0"/>
+      </section>
+      <section>
+        <detector id="140" section="0"/>
+      </section>
+      <section>
+        <detector id="160" section="0"/>
+      </section>
+    </module>
+    <module id="15">
+      <section>
+        <detector id="180" section="0"/>
+      </section>
+      <section>
+        <detector id="200" section="0"/>
+      </section>
+      <section>
+        <detector id="220" section="0"/>
+      </section>
+      <section>
+        <detector id="240" section="0"/>
+      </section>
+    </module>
+    <module id="16">
+      <section>
+        <detector id="103" section="0"/>
+      </section>
+      <section>
+        <detector id="123" section="0"/>
+      </section>
+      <section>
+        <detector id="143" section="0"/>
+      </section>
+      <section>
+        <detector id="163" section="0"/>
+      </section>
+    </module>
+    <module id="17">
+      <section>
+        <detector id="183" section="0"/>
+      </section>
+      <section>
+        <detector id="203" section="0"/>
+      </section>
+      <section>
+        <detector id="223" section="0"/>
+      </section>
+      <section>
+        <detector id="243" section="0"/>
+      </section>
+    </module>
+    <module id="18">
+      <section>
+        <detector id="260" section="0"/>
+      </section>
+      <section>
+        <detector id="280" section="0"/>
+      </section>
+      <section>
+        <detector id="283" section="0"/>
+      </section>
+      <section>
+        <detector id="263" section="0"/>
+      </section>
+    </module>
+    <module id="19">
+    </module>
+    <module id="20">
+    </module>
+    <module id="21">
+      <section>
+        <detector id="111" section="0"/>
+      </section>
+      <section>
+        <detector id="131" section="0"/>
+      </section>
+      <section>
+        <detector id="151" section="0"/>
+      </section>
+      <section>
+        <detector id="171" section="0"/>
+      </section>
+    </module>
+    <module id="22">
+      <section>
+        <detector id="191" section="0"/>
+      </section>
+      <section>
+        <detector id="211" section="0"/>
+      </section>
+      <section>
+        <detector id="231" section="0"/>
+      </section>
+      <section>
+        <detector id="251" section="0"/>
+      </section>
+    </module>
+    <module id="23">
+      <section>
+        <detector id="110" section="0"/>
+      </section>
+      <section>
+        <detector id="130" section="0"/>
+      </section>
+      <section>
+        <detector id="150" section="0"/>
+      </section>
+      <section>
+        <detector id="170" section="0"/>
+      </section>
+    </module>
+    <module id="24">
+      <section>
+        <detector id="190" section="0"/>
+      </section>
+      <section>
+        <detector id="210" section="0"/>
+      </section>
+      <section>
+        <detector id="230" section="0"/>
+      </section>
+      <section>
+        <detector id="250" section="0"/>
+      </section>
+    </module>
+    <module id="25">
+      <section>
+        <detector id="271" section="0"/>
+      </section>
+      <section>
+        <detector id="291" section="0"/>
+      </section>
+      <section>
+        <detector id="290" section="0"/>
+      </section>
+      <section>
+        <detector id="270" section="0"/>
+      </section>
+    </module>
+    <module id="26">
+    </module>
+    <module id="27">
+    </module>
+  </readout>
+  <groups>
+    <group name="LowZ">
+    </group>
+    <group name="HighZ">
+      <detector id="100"/>
+      <detector id="101"/>
+      <detector id="102"/>
+      <detector id="103"/>
+      <detector id="110"/>
+      <detector id="111"/>
+      <detector id="112"/>
+      <detector id="113"/>
+      <detector id="120"/>
+      <detector id="121"/>
+      <detector id="122"/>
+      <detector id="123"/>
+      <detector id="130"/>
+      <detector id="131"/>
+      <detector id="132"/>
+      <detector id="133"/>
+      <detector id="140"/>
+      <detector id="141"/>
+      <detector id="142"/>
+      <detector id="143"/>
+      <detector id="150"/>
+      <detector id="151"/>
+      <detector id="152"/>
+      <detector id="153"/>
+      <detector id="160"/>
+      <detector id="161"/>
+      <detector id="162"/>
+      <detector id="163"/>
+      <detector id="170"/>
+      <detector id="171"/>
+      <detector id="172"/>
+      <detector id="173"/>
+      <detector id="180"/>
+      <detector id="181"/>
+      <detector id="182"/>
+      <detector id="183"/>
+      <detector id="190"/>
+      <detector id="191"/>
+      <detector id="192"/>
+      <detector id="193"/>
+      <detector id="200"/>
+      <detector id="201"/>
+      <detector id="202"/>
+      <detector id="203"/>
+      <detector id="210"/>
+      <detector id="211"/>
+      <detector id="212"/>
+      <detector id="213"/>
+      <detector id="220"/>
+      <detector id="221"/>
+      <detector id="222"/>
+      <detector id="223"/>
+      <detector id="230"/>
+      <detector id="231"/>
+      <detector id="232"/>
+      <detector id="233"/>
+      <detector id="240"/>
+      <detector id="241"/>
+      <detector id="242"/>
+      <detector id="243"/>
+      <detector id="250"/>
+      <detector id="251"/>
+      <detector id="252"/>
+      <detector id="253"/>
+      <detector id="260"/>
+      <detector id="261"/>
+      <detector id="262"/>
+      <detector id="263"/>
+      <detector id="270"/>
+      <detector id="271"/>
+      <detector id="272"/>
+      <detector id="273"/>
+      <detector id="280"/>
+      <detector id="281"/>
+      <detector id="282"/>
+      <detector id="283"/>
+      <detector id="290"/>
+      <detector id="291"/>
+      <detector id="292"/>
+      <detector id="293"/>
+    </group>
+    <group name="Si">
+    </group>
+    <group name="CdTe">
+      <detector id="100"/>
+      <detector id="101"/>
+      <detector id="102"/>
+      <detector id="103"/>
+      <detector id="110"/>
+      <detector id="111"/>
+      <detector id="112"/>
+      <detector id="113"/>
+      <detector id="120"/>
+      <detector id="121"/>
+      <detector id="122"/>
+      <detector id="123"/>
+      <detector id="130"/>
+      <detector id="131"/>
+      <detector id="132"/>
+      <detector id="133"/>
+      <detector id="140"/>
+      <detector id="141"/>
+      <detector id="142"/>
+      <detector id="143"/>
+      <detector id="150"/>
+      <detector id="151"/>
+      <detector id="152"/>
+      <detector id="153"/>
+      <detector id="160"/>
+      <detector id="161"/>
+      <detector id="162"/>
+      <detector id="163"/>
+      <detector id="170"/>
+      <detector id="171"/>
+      <detector id="172"/>
+      <detector id="173"/>
+      <detector id="180"/>
+      <detector id="181"/>
+      <detector id="182"/>
+      <detector id="183"/>
+      <detector id="190"/>
+      <detector id="191"/>
+      <detector id="192"/>
+      <detector id="193"/>
+      <detector id="200"/>
+      <detector id="201"/>
+      <detector id="202"/>
+      <detector id="203"/>
+      <detector id="210"/>
+      <detector id="211"/>
+      <detector id="212"/>
+      <detector id="213"/>
+      <detector id="220"/>
+      <detector id="221"/>
+      <detector id="222"/>
+      <detector id="223"/>
+      <detector id="230"/>
+      <detector id="231"/>
+      <detector id="232"/>
+      <detector id="233"/>
+      <detector id="240"/>
+      <detector id="241"/>
+      <detector id="242"/>
+      <detector id="243"/>
+      <detector id="250"/>
+      <detector id="251"/>
+      <detector id="252"/>
+      <detector id="253"/>
+      <detector id="260"/>
+      <detector id="261"/>
+      <detector id="262"/>
+      <detector id="263"/>
+      <detector id="270"/>
+      <detector id="271"/>
+      <detector id="272"/>
+      <detector id="273"/>
+      <detector id="280"/>
+      <detector id="281"/>
+      <detector id="282"/>
+      <detector id="283"/>
+      <detector id="290"/>
+      <detector id="291"/>
+      <detector id="292"/>
+      <detector id="293"/>
+    </group>
+    <group name="CdTeB">
+      <detector id="100"/>
+      <detector id="101"/>
+      <detector id="102"/>
+      <detector id="103"/>
+      <detector id="110"/>
+      <detector id="111"/>
+      <detector id="112"/>
+      <detector id="113"/>
+      <detector id="120"/>
+      <detector id="121"/>
+      <detector id="122"/>
+      <detector id="123"/>
+      <detector id="130"/>
+      <detector id="131"/>
+      <detector id="132"/>
+      <detector id="133"/>
+      <detector id="140"/>
+      <detector id="141"/>
+      <detector id="142"/>
+      <detector id="143"/>
+      <detector id="150"/>
+      <detector id="151"/>
+      <detector id="152"/>
+      <detector id="153"/>
+      <detector id="160"/>
+      <detector id="161"/>
+      <detector id="162"/>
+      <detector id="163"/>
+      <detector id="170"/>
+      <detector id="171"/>
+      <detector id="172"/>
+      <detector id="173"/>
+      <detector id="180"/>
+      <detector id="181"/>
+      <detector id="182"/>
+      <detector id="183"/>
+      <detector id="190"/>
+      <detector id="191"/>
+      <detector id="192"/>
+      <detector id="193"/>
+      <detector id="200"/>
+      <detector id="201"/>
+      <detector id="202"/>
+      <detector id="203"/>
+      <detector id="210"/>
+      <detector id="211"/>
+      <detector id="212"/>
+      <detector id="213"/>
+      <detector id="220"/>
+      <detector id="221"/>
+      <detector id="222"/>
+      <detector id="223"/>
+      <detector id="230"/>
+      <detector id="231"/>
+      <detector id="232"/>
+      <detector id="233"/>
+      <detector id="240"/>
+      <detector id="241"/>
+      <detector id="242"/>
+      <detector id="243"/>
+      <detector id="250"/>
+      <detector id="251"/>
+      <detector id="252"/>
+      <detector id="253"/>
+      <detector id="260"/>
+      <detector id="261"/>
+      <detector id="262"/>
+      <detector id="263"/>
+      <detector id="270"/>
+      <detector id="271"/>
+      <detector id="272"/>
+      <detector id="273"/>
+      <detector id="280"/>
+      <detector id="281"/>
+      <detector id="282"/>
+      <detector id="283"/>
+      <detector id="290"/>
+      <detector id="291"/>
+      <detector id="292"/>
+      <detector id="293"/>
+    </group>
+    <group name="CdTeS">
+    </group>
+    <hit_pattern name="LowZ-LowZ" short_name="LL" bit="0">
+      <group name="LowZ"/>
+      <group name="LowZ"/>
+    </hit_pattern>
+    <hit_pattern name="LowZ-HighZ" short_name="LH" bit="1">
+      <group name="LowZ"/>
+      <group name="HighZ"/>
+    </hit_pattern>
+    <hit_pattern name="HighZ-HighZ" short_name="HH" bit="2">
+      <group name="HighZ"/>
+      <group name="HighZ"/>
+    </hit_pattern>
+    <hit_pattern name="Si-Si" short_name="SS" bit="3">
+      <group name="Si"/>
+      <group name="Si"/>
+    </hit_pattern>
+    <hit_pattern name="Si-CdTe" short_name="SC" bit="4">
+      <group name="Si"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+    <hit_pattern name="Si-CdTeB" short_name="SCb" bit="5">
+      <group name="Si"/>
+      <group name="CdTeB"/>
+    </hit_pattern>
+    <hit_pattern name="Si-CdTeS" short_name="SCs" bit="6">
+      <group name="Si"/>
+      <group name="CdTeS"/>
+    </hit_pattern>
+    <hit_pattern name="CdTe-CdTe" short_name="CC" bit="7">
+      <group name="CdTe"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+    <hit_pattern name="CdTeB-CdTeB" short_name="CbCb" bit="8">
+      <group name="CdTe"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+    <hit_pattern name="CdTeB-CdTeS" short_name="CbCs" bit="9">
+      <group name="CdTe"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+    <hit_pattern name="CdTeS-CdTeS" short_name="CsCs" bit="10">
+      <group name="CdTe"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+    <hit_pattern name="Si-Si-CdTe" short_name="SSC" bit="11">
+      <group name="Si"/>
+      <group name="Si"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+    <hit_pattern name="Si-CdTe-CdTe" short_name="SCC" bit="12">
+      <group name="Si"/>
+      <group name="CdTe"/>
+      <group name="CdTe"/>
+    </hit_pattern>
+  </groups>
+</configuration>
