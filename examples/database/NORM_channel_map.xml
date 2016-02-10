@@ -1,0 +1,3114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/Users/takeda/soft/ComptonSoft/xmlstyle/channel_map_v3.xsl"?>
+<channel_map>
+  <name>SGD-CC</name>
+  <comment>2015-10-06 | Hirokazu Odaka</comment>
+  <detector prefix="SiF" type="2DPad" num_sections="4" num_channels="64" num_x="16" num_y="16">
+    <section id="0" total="64">
+      <channel id="0">
+        <x>7</x>
+        <y>0</y>
+      </channel>
+      <channel id="1">
+        <x>7</x>
+        <y>1</y>
+      </channel>
+      <channel id="2">
+        <x>6</x>
+        <y>0</y>
+      </channel>
+      <channel id="3">
+        <x>6</x>
+        <y>1</y>
+      </channel>
+      <channel id="4">
+        <x>5</x>
+        <y>0</y>
+      </channel>
+      <channel id="5">
+        <x>5</x>
+        <y>1</y>
+      </channel>
+      <channel id="6">
+        <x>4</x>
+        <y>0</y>
+      </channel>
+      <channel id="7">
+        <x>4</x>
+        <y>1</y>
+      </channel>
+      <channel id="8">
+        <x>7</x>
+        <y>2</y>
+      </channel>
+      <channel id="9">
+        <x>7</x>
+        <y>3</y>
+      </channel>
+      <channel id="10">
+        <x>6</x>
+        <y>2</y>
+      </channel>
+      <channel id="11">
+        <x>6</x>
+        <y>3</y>
+      </channel>
+      <channel id="12">
+        <x>7</x>
+        <y>4</y>
+      </channel>
+      <channel id="13">
+        <x>7</x>
+        <y>5</y>
+      </channel>
+      <channel id="14">
+        <x>3</x>
+        <y>0</y>
+      </channel>
+      <channel id="15">
+        <x>3</x>
+        <y>1</y>
+      </channel>
+      <channel id="16">
+        <x>5</x>
+        <y>2</y>
+      </channel>
+      <channel id="17">
+        <x>5</x>
+        <y>3</y>
+      </channel>
+      <channel id="18">
+        <x>7</x>
+        <y>6</y>
+      </channel>
+      <channel id="19">
+        <x>7</x>
+        <y>7</y>
+      </channel>
+      <channel id="20">
+        <x>6</x>
+        <y>4</y>
+      </channel>
+      <channel id="21">
+        <x>6</x>
+        <y>5</y>
+      </channel>
+      <channel id="22">
+        <x>4</x>
+        <y>2</y>
+      </channel>
+      <channel id="23">
+        <x>4</x>
+        <y>3</y>
+      </channel>
+      <channel id="24">
+        <x>5</x>
+        <y>4</y>
+      </channel>
+      <channel id="25">
+        <x>5</x>
+        <y>5</y>
+      </channel>
+      <channel id="26">
+        <x>6</x>
+        <y>6</y>
+      </channel>
+      <channel id="27">
+        <x>6</x>
+        <y>7</y>
+      </channel>
+      <channel id="28">
+        <x>2</x>
+        <y>0</y>
+      </channel>
+      <channel id="29">
+        <x>2</x>
+        <y>1</y>
+      </channel>
+      <channel id="30">
+        <x>5</x>
+        <y>6</y>
+      </channel>
+      <channel id="31">
+        <x>5</x>
+        <y>7</y>
+      </channel>
+      <channel id="32">
+        <x>3</x>
+        <y>2</y>
+      </channel>
+      <channel id="33">
+        <x>3</x>
+        <y>3</y>
+      </channel>
+      <channel id="34">
+        <x>4</x>
+        <y>4</y>
+      </channel>
+      <channel id="35">
+        <x>4</x>
+        <y>5</y>
+      </channel>
+      <channel id="36">
+        <x>4</x>
+        <y>6</y>
+      </channel>
+      <channel id="37">
+        <x>4</x>
+        <y>7</y>
+      </channel>
+      <channel id="38">
+        <x>3</x>
+        <y>4</y>
+      </channel>
+      <channel id="39">
+        <x>3</x>
+        <y>5</y>
+      </channel>
+      <channel id="40">
+        <x>2</x>
+        <y>2</y>
+      </channel>
+      <channel id="41">
+        <x>2</x>
+        <y>3</y>
+      </channel>
+      <channel id="42">
+        <x>3</x>
+        <y>6</y>
+      </channel>
+      <channel id="43">
+        <x>3</x>
+        <y>7</y>
+      </channel>
+      <channel id="44">
+        <x>2</x>
+        <y>4</y>
+      </channel>
+      <channel id="45">
+        <x>2</x>
+        <y>5</y>
+      </channel>
+      <channel id="46">
+        <x>1</x>
+        <y>0</y>
+      </channel>
+      <channel id="47">
+        <x>1</x>
+        <y>1</y>
+      </channel>
+      <channel id="48">
+        <x>2</x>
+        <y>6</y>
+      </channel>
+      <channel id="49">
+        <x>2</x>
+        <y>7</y>
+      </channel>
+      <channel id="50">
+        <x>1</x>
+        <y>2</y>
+      </channel>
+      <channel id="51">
+        <x>1</x>
+        <y>3</y>
+      </channel>
+      <channel id="52">
+        <x>1</x>
+        <y>4</y>
+      </channel>
+      <channel id="53">
+        <x>1</x>
+        <y>5</y>
+      </channel>
+      <channel id="54">
+        <x>1</x>
+        <y>6</y>
+      </channel>
+      <channel id="55">
+        <x>1</x>
+        <y>7</y>
+      </channel>
+      <channel id="56">
+        <x>0</x>
+        <y>7</y>
+      </channel>
+      <channel id="57">
+        <x>0</x>
+        <y>6</y>
+      </channel>
+      <channel id="58">
+        <x>0</x>
+        <y>5</y>
+      </channel>
+      <channel id="59">
+        <x>0</x>
+        <y>4</y>
+      </channel>
+      <channel id="60">
+        <x>0</x>
+        <y>3</y>
+      </channel>
+      <channel id="61">
+        <x>0</x>
+        <y>2</y>
+      </channel>
+      <channel id="62">
+        <x>0</x>
+        <y>1</y>
+      </channel>
+      <channel id="63">
+        <x>0</x>
+        <y>0</y>
+      </channel>
+    </section>
+    <section id="1" total="64">
+      <channel id="0">
+        <x>15</x>
+        <y>7</y>
+      </channel>
+      <channel id="1">
+        <x>14</x>
+        <y>7</y>
+      </channel>
+      <channel id="2">
+        <x>15</x>
+        <y>6</y>
+      </channel>
+      <channel id="3">
+        <x>14</x>
+        <y>6</y>
+      </channel>
+      <channel id="4">
+        <x>15</x>
+        <y>5</y>
+      </channel>
+      <channel id="5">
+        <x>14</x>
+        <y>5</y>
+      </channel>
+      <channel id="6">
+        <x>15</x>
+        <y>4</y>
+      </channel>
+      <channel id="7">
+        <x>14</x>
+        <y>4</y>
+      </channel>
+      <channel id="8">
+        <x>13</x>
+        <y>7</y>
+      </channel>
+      <channel id="9">
+        <x>12</x>
+        <y>7</y>
+      </channel>
+      <channel id="10">
+        <x>13</x>
+        <y>6</y>
+      </channel>
+      <channel id="11">
+        <x>12</x>
+        <y>6</y>
+      </channel>
+      <channel id="12">
+        <x>11</x>
+        <y>7</y>
+      </channel>
+      <channel id="13">
+        <x>10</x>
+        <y>7</y>
+      </channel>
+      <channel id="14">
+        <x>15</x>
+        <y>3</y>
+      </channel>
+      <channel id="15">
+        <x>14</x>
+        <y>3</y>
+      </channel>
+      <channel id="16">
+        <x>13</x>
+        <y>5</y>
+      </channel>
+      <channel id="17">
+        <x>12</x>
+        <y>5</y>
+      </channel>
+      <channel id="18">
+        <x>9</x>
+        <y>7</y>
+      </channel>
+      <channel id="19">
+        <x>8</x>
+        <y>7</y>
+      </channel>
+      <channel id="20">
+        <x>11</x>
+        <y>6</y>
+      </channel>
+      <channel id="21">
+        <x>10</x>
+        <y>6</y>
+      </channel>
+      <channel id="22">
+        <x>13</x>
+        <y>4</y>
+      </channel>
+      <channel id="23">
+        <x>12</x>
+        <y>4</y>
+      </channel>
+      <channel id="24">
+        <x>11</x>
+        <y>5</y>
+      </channel>
+      <channel id="25">
+        <x>10</x>
+        <y>5</y>
+      </channel>
+      <channel id="26">
+        <x>9</x>
+        <y>6</y>
+      </channel>
+      <channel id="27">
+        <x>8</x>
+        <y>6</y>
+      </channel>
+      <channel id="28">
+        <x>15</x>
+        <y>2</y>
+      </channel>
+      <channel id="29">
+        <x>14</x>
+        <y>2</y>
+      </channel>
+      <channel id="30">
+        <x>9</x>
+        <y>5</y>
+      </channel>
+      <channel id="31">
+        <x>8</x>
+        <y>5</y>
+      </channel>
+      <channel id="32">
+        <x>13</x>
+        <y>3</y>
+      </channel>
+      <channel id="33">
+        <x>12</x>
+        <y>3</y>
+      </channel>
+      <channel id="34">
+        <x>11</x>
+        <y>4</y>
+      </channel>
+      <channel id="35">
+        <x>10</x>
+        <y>4</y>
+      </channel>
+      <channel id="36">
+        <x>9</x>
+        <y>4</y>
+      </channel>
+      <channel id="37">
+        <x>8</x>
+        <y>4</y>
+      </channel>
+      <channel id="38">
+        <x>11</x>
+        <y>3</y>
+      </channel>
+      <channel id="39">
+        <x>10</x>
+        <y>3</y>
+      </channel>
+      <channel id="40">
+        <x>13</x>
+        <y>2</y>
+      </channel>
+      <channel id="41">
+        <x>12</x>
+        <y>2</y>
+      </channel>
+      <channel id="42">
+        <x>9</x>
+        <y>3</y>
+      </channel>
+      <channel id="43">
+        <x>8</x>
+        <y>3</y>
+      </channel>
+      <channel id="44">
+        <x>11</x>
+        <y>2</y>
+      </channel>
+      <channel id="45">
+        <x>10</x>
+        <y>2</y>
+      </channel>
+      <channel id="46">
+        <x>15</x>
+        <y>1</y>
+      </channel>
+      <channel id="47">
+        <x>14</x>
+        <y>1</y>
+      </channel>
+      <channel id="48">
+        <x>9</x>
+        <y>2</y>
+      </channel>
+      <channel id="49">
+        <x>8</x>
+        <y>2</y>
+      </channel>
+      <channel id="50">
+        <x>13</x>
+        <y>1</y>
+      </channel>
+      <channel id="51">
+        <x>12</x>
+        <y>1</y>
+      </channel>
+      <channel id="52">
+        <x>11</x>
+        <y>1</y>
+      </channel>
+      <channel id="53">
+        <x>10</x>
+        <y>1</y>
+      </channel>
+      <channel id="54">
+        <x>9</x>
+        <y>1</y>
+      </channel>
+      <channel id="55">
+        <x>8</x>
+        <y>1</y>
+      </channel>
+      <channel id="56">
+        <x>8</x>
+        <y>0</y>
+      </channel>
+      <channel id="57">
+        <x>9</x>
+        <y>0</y>
+      </channel>
+      <channel id="58">
+        <x>10</x>
+        <y>0</y>
+      </channel>
+      <channel id="59">
+        <x>11</x>
+        <y>0</y>
+      </channel>
+      <channel id="60">
+        <x>12</x>
+        <y>0</y>
+      </channel>
+      <channel id="61">
+        <x>13</x>
+        <y>0</y>
+      </channel>
+      <channel id="62">
+        <x>14</x>
+        <y>0</y>
+      </channel>
+      <channel id="63">
+        <x>15</x>
+        <y>0</y>
+      </channel>
+    </section>
+    <section id="2" total="64">
+      <channel id="0">
+        <x>8</x>
+        <y>15</y>
+      </channel>
+      <channel id="1">
+        <x>8</x>
+        <y>14</y>
+      </channel>
+      <channel id="2">
+        <x>9</x>
+        <y>15</y>
+      </channel>
+      <channel id="3">
+        <x>9</x>
+        <y>14</y>
+      </channel>
+      <channel id="4">
+        <x>10</x>
+        <y>15</y>
+      </channel>
+      <channel id="5">
+        <x>10</x>
+        <y>14</y>
+      </channel>
+      <channel id="6">
+        <x>11</x>
+        <y>15</y>
+      </channel>
+      <channel id="7">
+        <x>11</x>
+        <y>14</y>
+      </channel>
+      <channel id="8">
+        <x>8</x>
+        <y>13</y>
+      </channel>
+      <channel id="9">
+        <x>8</x>
+        <y>12</y>
+      </channel>
+      <channel id="10">
+        <x>9</x>
+        <y>13</y>
+      </channel>
+      <channel id="11">
+        <x>9</x>
+        <y>12</y>
+      </channel>
+      <channel id="12">
+        <x>8</x>
+        <y>11</y>
+      </channel>
+      <channel id="13">
+        <x>8</x>
+        <y>10</y>
+      </channel>
+      <channel id="14">
+        <x>12</x>
+        <y>15</y>
+      </channel>
+      <channel id="15">
+        <x>12</x>
+        <y>14</y>
+      </channel>
+      <channel id="16">
+        <x>10</x>
+        <y>13</y>
+      </channel>
+      <channel id="17">
+        <x>10</x>
+        <y>12</y>
+      </channel>
+      <channel id="18">
+        <x>8</x>
+        <y>9</y>
+      </channel>
+      <channel id="19">
+        <x>8</x>
+        <y>8</y>
+      </channel>
+      <channel id="20">
+        <x>9</x>
+        <y>11</y>
+      </channel>
+      <channel id="21">
+        <x>9</x>
+        <y>10</y>
+      </channel>
+      <channel id="22">
+        <x>11</x>
+        <y>13</y>
+      </channel>
+      <channel id="23">
+        <x>11</x>
+        <y>12</y>
+      </channel>
+      <channel id="24">
+        <x>10</x>
+        <y>11</y>
+      </channel>
+      <channel id="25">
+        <x>10</x>
+        <y>10</y>
+      </channel>
+      <channel id="26">
+        <x>9</x>
+        <y>9</y>
+      </channel>
+      <channel id="27">
+        <x>9</x>
+        <y>8</y>
+      </channel>
+      <channel id="28">
+        <x>13</x>
+        <y>15</y>
+      </channel>
+      <channel id="29">
+        <x>13</x>
+        <y>14</y>
+      </channel>
+      <channel id="30">
+        <x>10</x>
+        <y>9</y>
+      </channel>
+      <channel id="31">
+        <x>10</x>
+        <y>8</y>
+      </channel>
+      <channel id="32">
+        <x>12</x>
+        <y>13</y>
+      </channel>
+      <channel id="33">
+        <x>12</x>
+        <y>12</y>
+      </channel>
+      <channel id="34">
+        <x>11</x>
+        <y>11</y>
+      </channel>
+      <channel id="35">
+        <x>11</x>
+        <y>10</y>
+      </channel>
+      <channel id="36">
+        <x>11</x>
+        <y>9</y>
+      </channel>
+      <channel id="37">
+        <x>11</x>
+        <y>8</y>
+      </channel>
+      <channel id="38">
+        <x>12</x>
+        <y>11</y>
+      </channel>
+      <channel id="39">
+        <x>12</x>
+        <y>10</y>
+      </channel>
+      <channel id="40">
+        <x>13</x>
+        <y>13</y>
+      </channel>
+      <channel id="41">
+        <x>13</x>
+        <y>12</y>
+      </channel>
+      <channel id="42">
+        <x>12</x>
+        <y>9</y>
+      </channel>
+      <channel id="43">
+        <x>12</x>
+        <y>8</y>
+      </channel>
+      <channel id="44">
+        <x>13</x>
+        <y>11</y>
+      </channel>
+      <channel id="45">
+        <x>13</x>
+        <y>10</y>
+      </channel>
+      <channel id="46">
+        <x>14</x>
+        <y>15</y>
+      </channel>
+      <channel id="47">
+        <x>14</x>
+        <y>14</y>
+      </channel>
+      <channel id="48">
+        <x>13</x>
+        <y>9</y>
+      </channel>
+      <channel id="49">
+        <x>13</x>
+        <y>8</y>
+      </channel>
+      <channel id="50">
+        <x>14</x>
+        <y>13</y>
+      </channel>
+      <channel id="51">
+        <x>14</x>
+        <y>12</y>
+      </channel>
+      <channel id="52">
+        <x>14</x>
+        <y>11</y>
+      </channel>
+      <channel id="53">
+        <x>14</x>
+        <y>10</y>
+      </channel>
+      <channel id="54">
+        <x>14</x>
+        <y>9</y>
+      </channel>
+      <channel id="55">
+        <x>14</x>
+        <y>8</y>
+      </channel>
+      <channel id="56">
+        <x>15</x>
+        <y>8</y>
+      </channel>
+      <channel id="57">
+        <x>15</x>
+        <y>9</y>
+      </channel>
+      <channel id="58">
+        <x>15</x>
+        <y>10</y>
+      </channel>
+      <channel id="59">
+        <x>15</x>
+        <y>11</y>
+      </channel>
+      <channel id="60">
+        <x>15</x>
+        <y>12</y>
+      </channel>
+      <channel id="61">
+        <x>15</x>
+        <y>13</y>
+      </channel>
+      <channel id="62">
+        <x>15</x>
+        <y>14</y>
+      </channel>
+      <channel id="63">
+        <x>15</x>
+        <y>15</y>
+      </channel>
+    </section>
+    <section id="3" total="64">
+      <channel id="0">
+        <x>0</x>
+        <y>8</y>
+      </channel>
+      <channel id="1">
+        <x>1</x>
+        <y>8</y>
+      </channel>
+      <channel id="2">
+        <x>0</x>
+        <y>9</y>
+      </channel>
+      <channel id="3">
+        <x>1</x>
+        <y>9</y>
+      </channel>
+      <channel id="4">
+        <x>0</x>
+        <y>10</y>
+      </channel>
+      <channel id="5">
+        <x>1</x>
+        <y>10</y>
+      </channel>
+      <channel id="6">
+        <x>0</x>
+        <y>11</y>
+      </channel>
+      <channel id="7">
+        <x>1</x>
+        <y>11</y>
+      </channel>
+      <channel id="8">
+        <x>2</x>
+        <y>8</y>
+      </channel>
+      <channel id="9">
+        <x>3</x>
+        <y>8</y>
+      </channel>
+      <channel id="10">
+        <x>2</x>
+        <y>9</y>
+      </channel>
+      <channel id="11">
+        <x>3</x>
+        <y>9</y>
+      </channel>
+      <channel id="12">
+        <x>4</x>
+        <y>8</y>
+      </channel>
+      <channel id="13">
+        <x>5</x>
+        <y>8</y>
+      </channel>
+      <channel id="14">
+        <x>0</x>
+        <y>12</y>
+      </channel>
+      <channel id="15">
+        <x>1</x>
+        <y>12</y>
+      </channel>
+      <channel id="16">
+        <x>2</x>
+        <y>10</y>
+      </channel>
+      <channel id="17">
+        <x>3</x>
+        <y>10</y>
+      </channel>
+      <channel id="18">
+        <x>6</x>
+        <y>8</y>
+      </channel>
+      <channel id="19">
+        <x>7</x>
+        <y>8</y>
+      </channel>
+      <channel id="20">
+        <x>4</x>
+        <y>9</y>
+      </channel>
+      <channel id="21">
+        <x>5</x>
+        <y>9</y>
+      </channel>
+      <channel id="22">
+        <x>2</x>
+        <y>11</y>
+      </channel>
+      <channel id="23">
+        <x>3</x>
+        <y>11</y>
+      </channel>
+      <channel id="24">
+        <x>4</x>
+        <y>10</y>
+      </channel>
+      <channel id="25">
+        <x>5</x>
+        <y>10</y>
+      </channel>
+      <channel id="26">
+        <x>6</x>
+        <y>9</y>
+      </channel>
+      <channel id="27">
+        <x>7</x>
+        <y>9</y>
+      </channel>
+      <channel id="28">
+        <x>0</x>
+        <y>13</y>
+      </channel>
+      <channel id="29">
+        <x>1</x>
+        <y>13</y>
+      </channel>
+      <channel id="30">
+        <x>6</x>
+        <y>10</y>
+      </channel>
+      <channel id="31">
+        <x>7</x>
+        <y>10</y>
+      </channel>
+      <channel id="32">
+        <x>2</x>
+        <y>12</y>
+      </channel>
+      <channel id="33">
+        <x>3</x>
+        <y>12</y>
+      </channel>
+      <channel id="34">
+        <x>4</x>
+        <y>11</y>
+      </channel>
+      <channel id="35">
+        <x>5</x>
+        <y>11</y>
+      </channel>
+      <channel id="36">
+        <x>6</x>
+        <y>11</y>
+      </channel>
+      <channel id="37">
+        <x>7</x>
+        <y>11</y>
+      </channel>
+      <channel id="38">
+        <x>4</x>
+        <y>12</y>
+      </channel>
+      <channel id="39">
+        <x>5</x>
+        <y>12</y>
+      </channel>
+      <channel id="40">
+        <x>2</x>
+        <y>13</y>
+      </channel>
+      <channel id="41">
+        <x>3</x>
+        <y>13</y>
+      </channel>
+      <channel id="42">
+        <x>6</x>
+        <y>12</y>
+      </channel>
+      <channel id="43">
+        <x>7</x>
+        <y>12</y>
+      </channel>
+      <channel id="44">
+        <x>4</x>
+        <y>13</y>
+      </channel>
+      <channel id="45">
+        <x>5</x>
+        <y>13</y>
+      </channel>
+      <channel id="46">
+        <x>0</x>
+        <y>14</y>
+      </channel>
+      <channel id="47">
+        <x>1</x>
+        <y>14</y>
+      </channel>
+      <channel id="48">
+        <x>6</x>
+        <y>13</y>
+      </channel>
+      <channel id="49">
+        <x>7</x>
+        <y>13</y>
+      </channel>
+      <channel id="50">
+        <x>2</x>
+        <y>14</y>
+      </channel>
+      <channel id="51">
+        <x>3</x>
+        <y>14</y>
+      </channel>
+      <channel id="52">
+        <x>4</x>
+        <y>14</y>
+      </channel>
+      <channel id="53">
+        <x>5</x>
+        <y>14</y>
+      </channel>
+      <channel id="54">
+        <x>6</x>
+        <y>14</y>
+      </channel>
+      <channel id="55">
+        <x>7</x>
+        <y>14</y>
+      </channel>
+      <channel id="56">
+        <x>7</x>
+        <y>15</y>
+      </channel>
+      <channel id="57">
+        <x>6</x>
+        <y>15</y>
+      </channel>
+      <channel id="58">
+        <x>5</x>
+        <y>15</y>
+      </channel>
+      <channel id="59">
+        <x>4</x>
+        <y>15</y>
+      </channel>
+      <channel id="60">
+        <x>3</x>
+        <y>15</y>
+      </channel>
+      <channel id="61">
+        <x>2</x>
+        <y>15</y>
+      </channel>
+      <channel id="62">
+        <x>1</x>
+        <y>15</y>
+      </channel>
+      <channel id="63">
+        <x>0</x>
+        <y>15</y>
+      </channel>
+    </section>
+  </detector>
+  <detector prefix="SiB" type="2DPad" num_sections="4" num_channels="64" num_x="16" num_y="16">
+    <section id="0" total="64">
+      <channel id="0">
+        <x>0</x>
+        <y>0</y>
+      </channel>
+      <channel id="1">
+        <x>0</x>
+        <y>1</y>
+      </channel>
+      <channel id="2">
+        <x>0</x>
+        <y>2</y>
+      </channel>
+      <channel id="3">
+        <x>0</x>
+        <y>3</y>
+      </channel>
+      <channel id="4">
+        <x>0</x>
+        <y>4</y>
+      </channel>
+      <channel id="5">
+        <x>0</x>
+        <y>5</y>
+      </channel>
+      <channel id="6">
+        <x>0</x>
+        <y>6</y>
+      </channel>
+      <channel id="7">
+        <x>0</x>
+        <y>7</y>
+      </channel>
+      <channel id="8">
+        <x>1</x>
+        <y>7</y>
+      </channel>
+      <channel id="9">
+        <x>1</x>
+        <y>6</y>
+      </channel>
+      <channel id="10">
+        <x>1</x>
+        <y>5</y>
+      </channel>
+      <channel id="11">
+        <x>1</x>
+        <y>4</y>
+      </channel>
+      <channel id="12">
+        <x>1</x>
+        <y>3</y>
+      </channel>
+      <channel id="13">
+        <x>1</x>
+        <y>2</y>
+      </channel>
+      <channel id="14">
+        <x>2</x>
+        <y>7</y>
+      </channel>
+      <channel id="15">
+        <x>2</x>
+        <y>6</y>
+      </channel>
+      <channel id="16">
+        <x>1</x>
+        <y>1</y>
+      </channel>
+      <channel id="17">
+        <x>1</x>
+        <y>0</y>
+      </channel>
+      <channel id="18">
+        <x>2</x>
+        <y>5</y>
+      </channel>
+      <channel id="19">
+        <x>2</x>
+        <y>4</y>
+      </channel>
+      <channel id="20">
+        <x>3</x>
+        <y>7</y>
+      </channel>
+      <channel id="21">
+        <x>3</x>
+        <y>6</y>
+      </channel>
+      <channel id="22">
+        <x>2</x>
+        <y>3</y>
+      </channel>
+      <channel id="23">
+        <x>2</x>
+        <y>2</y>
+      </channel>
+      <channel id="24">
+        <x>3</x>
+        <y>5</y>
+      </channel>
+      <channel id="25">
+        <x>3</x>
+        <y>4</y>
+      </channel>
+      <channel id="26">
+        <x>4</x>
+        <y>7</y>
+      </channel>
+      <channel id="27">
+        <x>4</x>
+        <y>6</y>
+      </channel>
+      <channel id="28">
+        <x>4</x>
+        <y>5</y>
+      </channel>
+      <channel id="29">
+        <x>4</x>
+        <y>4</y>
+      </channel>
+      <channel id="30">
+        <x>3</x>
+        <y>3</y>
+      </channel>
+      <channel id="31">
+        <x>3</x>
+        <y>2</y>
+      </channel>
+      <channel id="32">
+        <x>5</x>
+        <y>7</y>
+      </channel>
+      <channel id="33">
+        <x>5</x>
+        <y>6</y>
+      </channel>
+      <channel id="34">
+        <x>2</x>
+        <y>1</y>
+      </channel>
+      <channel id="35">
+        <x>2</x>
+        <y>0</y>
+      </channel>
+      <channel id="36">
+        <x>6</x>
+        <y>7</y>
+      </channel>
+      <channel id="37">
+        <x>6</x>
+        <y>6</y>
+      </channel>
+      <channel id="38">
+        <x>5</x>
+        <y>5</y>
+      </channel>
+      <channel id="39">
+        <x>5</x>
+        <y>4</y>
+      </channel>
+      <channel id="40">
+        <x>4</x>
+        <y>3</y>
+      </channel>
+      <channel id="41">
+        <x>4</x>
+        <y>2</y>
+      </channel>
+      <channel id="42">
+        <x>6</x>
+        <y>5</y>
+      </channel>
+      <channel id="43">
+        <x>6</x>
+        <y>4</y>
+      </channel>
+      <channel id="44">
+        <x>7</x>
+        <y>7</y>
+      </channel>
+      <channel id="45">
+        <x>7</x>
+        <y>6</y>
+      </channel>
+      <channel id="46">
+        <x>5</x>
+        <y>3</y>
+      </channel>
+      <channel id="47">
+        <x>5</x>
+        <y>2</y>
+      </channel>
+      <channel id="48">
+        <x>3</x>
+        <y>1</y>
+      </channel>
+      <channel id="49">
+        <x>3</x>
+        <y>0</y>
+      </channel>
+      <channel id="50">
+        <x>7</x>
+        <y>5</y>
+      </channel>
+      <channel id="51">
+        <x>7</x>
+        <y>4</y>
+      </channel>
+      <channel id="52">
+        <x>6</x>
+        <y>3</y>
+      </channel>
+      <channel id="53">
+        <x>6</x>
+        <y>2</y>
+      </channel>
+      <channel id="54">
+        <x>7</x>
+        <y>3</y>
+      </channel>
+      <channel id="55">
+        <x>7</x>
+        <y>2</y>
+      </channel>
+      <channel id="56">
+        <x>4</x>
+        <y>1</y>
+      </channel>
+      <channel id="57">
+        <x>4</x>
+        <y>0</y>
+      </channel>
+      <channel id="58">
+        <x>5</x>
+        <y>1</y>
+      </channel>
+      <channel id="59">
+        <x>5</x>
+        <y>0</y>
+      </channel>
+      <channel id="60">
+        <x>6</x>
+        <y>1</y>
+      </channel>
+      <channel id="61">
+        <x>6</x>
+        <y>0</y>
+      </channel>
+      <channel id="62">
+        <x>7</x>
+        <y>1</y>
+      </channel>
+      <channel id="63">
+        <x>7</x>
+        <y>0</y>
+      </channel>
+    </section>
+    <section id="1" total="64">
+      <channel id="0">
+        <x>15</x>
+        <y>0</y>
+      </channel>
+      <channel id="1">
+        <x>14</x>
+        <y>0</y>
+      </channel>
+      <channel id="2">
+        <x>13</x>
+        <y>0</y>
+      </channel>
+      <channel id="3">
+        <x>12</x>
+        <y>0</y>
+      </channel>
+      <channel id="4">
+        <x>11</x>
+        <y>0</y>
+      </channel>
+      <channel id="5">
+        <x>10</x>
+        <y>0</y>
+      </channel>
+      <channel id="6">
+        <x>9</x>
+        <y>0</y>
+      </channel>
+      <channel id="7">
+        <x>8</x>
+        <y>0</y>
+      </channel>
+      <channel id="8">
+        <x>8</x>
+        <y>1</y>
+      </channel>
+      <channel id="9">
+        <x>9</x>
+        <y>1</y>
+      </channel>
+      <channel id="10">
+        <x>10</x>
+        <y>1</y>
+      </channel>
+      <channel id="11">
+        <x>11</x>
+        <y>1</y>
+      </channel>
+      <channel id="12">
+        <x>12</x>
+        <y>1</y>
+      </channel>
+      <channel id="13">
+        <x>13</x>
+        <y>1</y>
+      </channel>
+      <channel id="14">
+        <x>8</x>
+        <y>2</y>
+      </channel>
+      <channel id="15">
+        <x>9</x>
+        <y>2</y>
+      </channel>
+      <channel id="16">
+        <x>14</x>
+        <y>1</y>
+      </channel>
+      <channel id="17">
+        <x>15</x>
+        <y>1</y>
+      </channel>
+      <channel id="18">
+        <x>10</x>
+        <y>2</y>
+      </channel>
+      <channel id="19">
+        <x>11</x>
+        <y>2</y>
+      </channel>
+      <channel id="20">
+        <x>8</x>
+        <y>3</y>
+      </channel>
+      <channel id="21">
+        <x>9</x>
+        <y>3</y>
+      </channel>
+      <channel id="22">
+        <x>12</x>
+        <y>2</y>
+      </channel>
+      <channel id="23">
+        <x>13</x>
+        <y>2</y>
+      </channel>
+      <channel id="24">
+        <x>10</x>
+        <y>3</y>
+      </channel>
+      <channel id="25">
+        <x>11</x>
+        <y>3</y>
+      </channel>
+      <channel id="26">
+        <x>8</x>
+        <y>4</y>
+      </channel>
+      <channel id="27">
+        <x>9</x>
+        <y>4</y>
+      </channel>
+      <channel id="28">
+        <x>10</x>
+        <y>4</y>
+      </channel>
+      <channel id="29">
+        <x>11</x>
+        <y>4</y>
+      </channel>
+      <channel id="30">
+        <x>12</x>
+        <y>3</y>
+      </channel>
+      <channel id="31">
+        <x>13</x>
+        <y>3</y>
+      </channel>
+      <channel id="32">
+        <x>8</x>
+        <y>5</y>
+      </channel>
+      <channel id="33">
+        <x>9</x>
+        <y>5</y>
+      </channel>
+      <channel id="34">
+        <x>14</x>
+        <y>2</y>
+      </channel>
+      <channel id="35">
+        <x>15</x>
+        <y>2</y>
+      </channel>
+      <channel id="36">
+        <x>8</x>
+        <y>6</y>
+      </channel>
+      <channel id="37">
+        <x>9</x>
+        <y>6</y>
+      </channel>
+      <channel id="38">
+        <x>10</x>
+        <y>5</y>
+      </channel>
+      <channel id="39">
+        <x>11</x>
+        <y>5</y>
+      </channel>
+      <channel id="40">
+        <x>12</x>
+        <y>4</y>
+      </channel>
+      <channel id="41">
+        <x>13</x>
+        <y>4</y>
+      </channel>
+      <channel id="42">
+        <x>10</x>
+        <y>6</y>
+      </channel>
+      <channel id="43">
+        <x>11</x>
+        <y>6</y>
+      </channel>
+      <channel id="44">
+        <x>8</x>
+        <y>7</y>
+      </channel>
+      <channel id="45">
+        <x>9</x>
+        <y>7</y>
+      </channel>
+      <channel id="46">
+        <x>12</x>
+        <y>5</y>
+      </channel>
+      <channel id="47">
+        <x>13</x>
+        <y>5</y>
+      </channel>
+      <channel id="48">
+        <x>14</x>
+        <y>3</y>
+      </channel>
+      <channel id="49">
+        <x>15</x>
+        <y>3</y>
+      </channel>
+      <channel id="50">
+        <x>10</x>
+        <y>7</y>
+      </channel>
+      <channel id="51">
+        <x>11</x>
+        <y>7</y>
+      </channel>
+      <channel id="52">
+        <x>12</x>
+        <y>6</y>
+      </channel>
+      <channel id="53">
+        <x>13</x>
+        <y>6</y>
+      </channel>
+      <channel id="54">
+        <x>12</x>
+        <y>7</y>
+      </channel>
+      <channel id="55">
+        <x>13</x>
+        <y>7</y>
+      </channel>
+      <channel id="56">
+        <x>14</x>
+        <y>4</y>
+      </channel>
+      <channel id="57">
+        <x>15</x>
+        <y>4</y>
+      </channel>
+      <channel id="58">
+        <x>14</x>
+        <y>5</y>
+      </channel>
+      <channel id="59">
+        <x>15</x>
+        <y>5</y>
+      </channel>
+      <channel id="60">
+        <x>14</x>
+        <y>6</y>
+      </channel>
+      <channel id="61">
+        <x>15</x>
+        <y>6</y>
+      </channel>
+      <channel id="62">
+        <x>14</x>
+        <y>7</y>
+      </channel>
+      <channel id="63">
+        <x>15</x>
+        <y>7</y>
+      </channel>
+    </section>
+    <section id="2" total="64">
+      <channel id="0">
+        <x>15</x>
+        <y>15</y>
+      </channel>
+      <channel id="1">
+        <x>15</x>
+        <y>14</y>
+      </channel>
+      <channel id="2">
+        <x>15</x>
+        <y>13</y>
+      </channel>
+      <channel id="3">
+        <x>15</x>
+        <y>12</y>
+      </channel>
+      <channel id="4">
+        <x>15</x>
+        <y>11</y>
+      </channel>
+      <channel id="5">
+        <x>15</x>
+        <y>10</y>
+      </channel>
+      <channel id="6">
+        <x>15</x>
+        <y>9</y>
+      </channel>
+      <channel id="7">
+        <x>15</x>
+        <y>8</y>
+      </channel>
+      <channel id="8">
+        <x>14</x>
+        <y>8</y>
+      </channel>
+      <channel id="9">
+        <x>14</x>
+        <y>9</y>
+      </channel>
+      <channel id="10">
+        <x>14</x>
+        <y>10</y>
+      </channel>
+      <channel id="11">
+        <x>14</x>
+        <y>11</y>
+      </channel>
+      <channel id="12">
+        <x>14</x>
+        <y>12</y>
+      </channel>
+      <channel id="13">
+        <x>14</x>
+        <y>13</y>
+      </channel>
+      <channel id="14">
+        <x>13</x>
+        <y>8</y>
+      </channel>
+      <channel id="15">
+        <x>13</x>
+        <y>9</y>
+      </channel>
+      <channel id="16">
+        <x>14</x>
+        <y>14</y>
+      </channel>
+      <channel id="17">
+        <x>14</x>
+        <y>15</y>
+      </channel>
+      <channel id="18">
+        <x>13</x>
+        <y>10</y>
+      </channel>
+      <channel id="19">
+        <x>13</x>
+        <y>11</y>
+      </channel>
+      <channel id="20">
+        <x>12</x>
+        <y>8</y>
+      </channel>
+      <channel id="21">
+        <x>12</x>
+        <y>9</y>
+      </channel>
+      <channel id="22">
+        <x>13</x>
+        <y>12</y>
+      </channel>
+      <channel id="23">
+        <x>13</x>
+        <y>13</y>
+      </channel>
+      <channel id="24">
+        <x>12</x>
+        <y>10</y>
+      </channel>
+      <channel id="25">
+        <x>12</x>
+        <y>11</y>
+      </channel>
+      <channel id="26">
+        <x>11</x>
+        <y>8</y>
+      </channel>
+      <channel id="27">
+        <x>11</x>
+        <y>9</y>
+      </channel>
+      <channel id="28">
+        <x>11</x>
+        <y>10</y>
+      </channel>
+      <channel id="29">
+        <x>11</x>
+        <y>11</y>
+      </channel>
+      <channel id="30">
+        <x>12</x>
+        <y>12</y>
+      </channel>
+      <channel id="31">
+        <x>12</x>
+        <y>13</y>
+      </channel>
+      <channel id="32">
+        <x>10</x>
+        <y>8</y>
+      </channel>
+      <channel id="33">
+        <x>10</x>
+        <y>9</y>
+      </channel>
+      <channel id="34">
+        <x>13</x>
+        <y>14</y>
+      </channel>
+      <channel id="35">
+        <x>13</x>
+        <y>15</y>
+      </channel>
+      <channel id="36">
+        <x>9</x>
+        <y>8</y>
+      </channel>
+      <channel id="37">
+        <x>9</x>
+        <y>9</y>
+      </channel>
+      <channel id="38">
+        <x>10</x>
+        <y>10</y>
+      </channel>
+      <channel id="39">
+        <x>10</x>
+        <y>11</y>
+      </channel>
+      <channel id="40">
+        <x>11</x>
+        <y>12</y>
+      </channel>
+      <channel id="41">
+        <x>11</x>
+        <y>13</y>
+      </channel>
+      <channel id="42">
+        <x>9</x>
+        <y>10</y>
+      </channel>
+      <channel id="43">
+        <x>9</x>
+        <y>11</y>
+      </channel>
+      <channel id="44">
+        <x>8</x>
+        <y>8</y>
+      </channel>
+      <channel id="45">
+        <x>8</x>
+        <y>9</y>
+      </channel>
+      <channel id="46">
+        <x>10</x>
+        <y>12</y>
+      </channel>
+      <channel id="47">
+        <x>10</x>
+        <y>13</y>
+      </channel>
+      <channel id="48">
+        <x>12</x>
+        <y>14</y>
+      </channel>
+      <channel id="49">
+        <x>12</x>
+        <y>15</y>
+      </channel>
+      <channel id="50">
+        <x>8</x>
+        <y>10</y>
+      </channel>
+      <channel id="51">
+        <x>8</x>
+        <y>11</y>
+      </channel>
+      <channel id="52">
+        <x>9</x>
+        <y>12</y>
+      </channel>
+      <channel id="53">
+        <x>9</x>
+        <y>13</y>
+      </channel>
+      <channel id="54">
+        <x>8</x>
+        <y>12</y>
+      </channel>
+      <channel id="55">
+        <x>8</x>
+        <y>13</y>
+      </channel>
+      <channel id="56">
+        <x>11</x>
+        <y>14</y>
+      </channel>
+      <channel id="57">
+        <x>11</x>
+        <y>15</y>
+      </channel>
+      <channel id="58">
+        <x>10</x>
+        <y>14</y>
+      </channel>
+      <channel id="59">
+        <x>10</x>
+        <y>15</y>
+      </channel>
+      <channel id="60">
+        <x>9</x>
+        <y>14</y>
+      </channel>
+      <channel id="61">
+        <x>9</x>
+        <y>15</y>
+      </channel>
+      <channel id="62">
+        <x>8</x>
+        <y>14</y>
+      </channel>
+      <channel id="63">
+        <x>8</x>
+        <y>15</y>
+      </channel>
+    </section>
+    <section id="3" total="64">
+      <channel id="0">
+        <x>0</x>
+        <y>15</y>
+      </channel>
+      <channel id="1">
+        <x>1</x>
+        <y>15</y>
+      </channel>
+      <channel id="2">
+        <x>2</x>
+        <y>15</y>
+      </channel>
+      <channel id="3">
+        <x>3</x>
+        <y>15</y>
+      </channel>
+      <channel id="4">
+        <x>4</x>
+        <y>15</y>
+      </channel>
+      <channel id="5">
+        <x>5</x>
+        <y>15</y>
+      </channel>
+      <channel id="6">
+        <x>6</x>
+        <y>15</y>
+      </channel>
+      <channel id="7">
+        <x>7</x>
+        <y>15</y>
+      </channel>
+      <channel id="8">
+        <x>7</x>
+        <y>14</y>
+      </channel>
+      <channel id="9">
+        <x>6</x>
+        <y>14</y>
+      </channel>
+      <channel id="10">
+        <x>5</x>
+        <y>14</y>
+      </channel>
+      <channel id="11">
+        <x>4</x>
+        <y>14</y>
+      </channel>
+      <channel id="12">
+        <x>3</x>
+        <y>14</y>
+      </channel>
+      <channel id="13">
+        <x>2</x>
+        <y>14</y>
+      </channel>
+      <channel id="14">
+        <x>7</x>
+        <y>13</y>
+      </channel>
+      <channel id="15">
+        <x>6</x>
+        <y>13</y>
+      </channel>
+      <channel id="16">
+        <x>1</x>
+        <y>14</y>
+      </channel>
+      <channel id="17">
+        <x>0</x>
+        <y>14</y>
+      </channel>
+      <channel id="18">
+        <x>5</x>
+        <y>13</y>
+      </channel>
+      <channel id="19">
+        <x>4</x>
+        <y>13</y>
+      </channel>
+      <channel id="20">
+        <x>7</x>
+        <y>12</y>
+      </channel>
+      <channel id="21">
+        <x>6</x>
+        <y>12</y>
+      </channel>
+      <channel id="22">
+        <x>3</x>
+        <y>13</y>
+      </channel>
+      <channel id="23">
+        <x>2</x>
+        <y>13</y>
+      </channel>
+      <channel id="24">
+        <x>5</x>
+        <y>12</y>
+      </channel>
+      <channel id="25">
+        <x>4</x>
+        <y>12</y>
+      </channel>
+      <channel id="26">
+        <x>7</x>
+        <y>11</y>
+      </channel>
+      <channel id="27">
+        <x>6</x>
+        <y>11</y>
+      </channel>
+      <channel id="28">
+        <x>5</x>
+        <y>11</y>
+      </channel>
+      <channel id="29">
+        <x>4</x>
+        <y>11</y>
+      </channel>
+      <channel id="30">
+        <x>3</x>
+        <y>12</y>
+      </channel>
+      <channel id="31">
+        <x>2</x>
+        <y>12</y>
+      </channel>
+      <channel id="32">
+        <x>7</x>
+        <y>10</y>
+      </channel>
+      <channel id="33">
+        <x>6</x>
+        <y>10</y>
+      </channel>
+      <channel id="34">
+        <x>1</x>
+        <y>13</y>
+      </channel>
+      <channel id="35">
+        <x>0</x>
+        <y>13</y>
+      </channel>
+      <channel id="36">
+        <x>7</x>
+        <y>9</y>
+      </channel>
+      <channel id="37">
+        <x>6</x>
+        <y>9</y>
+      </channel>
+      <channel id="38">
+        <x>5</x>
+        <y>10</y>
+      </channel>
+      <channel id="39">
+        <x>4</x>
+        <y>10</y>
+      </channel>
+      <channel id="40">
+        <x>3</x>
+        <y>11</y>
+      </channel>
+      <channel id="41">
+        <x>2</x>
+        <y>11</y>
+      </channel>
+      <channel id="42">
+        <x>5</x>
+        <y>9</y>
+      </channel>
+      <channel id="43">
+        <x>4</x>
+        <y>9</y>
+      </channel>
+      <channel id="44">
+        <x>7</x>
+        <y>8</y>
+      </channel>
+      <channel id="45">
+        <x>6</x>
+        <y>8</y>
+      </channel>
+      <channel id="46">
+        <x>3</x>
+        <y>10</y>
+      </channel>
+      <channel id="47">
+        <x>2</x>
+        <y>10</y>
+      </channel>
+      <channel id="48">
+        <x>1</x>
+        <y>12</y>
+      </channel>
+      <channel id="49">
+        <x>0</x>
+        <y>12</y>
+      </channel>
+      <channel id="50">
+        <x>5</x>
+        <y>8</y>
+      </channel>
+      <channel id="51">
+        <x>4</x>
+        <y>8</y>
+      </channel>
+      <channel id="52">
+        <x>3</x>
+        <y>9</y>
+      </channel>
+      <channel id="53">
+        <x>2</x>
+        <y>9</y>
+      </channel>
+      <channel id="54">
+        <x>3</x>
+        <y>8</y>
+      </channel>
+      <channel id="55">
+        <x>2</x>
+        <y>8</y>
+      </channel>
+      <channel id="56">
+        <x>1</x>
+        <y>11</y>
+      </channel>
+      <channel id="57">
+        <x>0</x>
+        <y>11</y>
+      </channel>
+      <channel id="58">
+        <x>1</x>
+        <y>10</y>
+      </channel>
+      <channel id="59">
+        <x>0</x>
+        <y>10</y>
+      </channel>
+      <channel id="60">
+        <x>1</x>
+        <y>9</y>
+      </channel>
+      <channel id="61">
+        <x>0</x>
+        <y>9</y>
+      </channel>
+      <channel id="62">
+        <x>1</x>
+        <y>8</y>
+      </channel>
+      <channel id="63">
+        <x>0</x>
+        <y>8</y>
+      </channel>
+    </section>
+  </detector>
+  <detector prefix="CdTeBF" type="2DPad" num_sections="1" num_channels="64" num_x="8" num_y="8">
+    <section id="0" total="64">
+      <channel id="0">
+        <x>0</x>
+        <y>7</y>
+      </channel>
+      <channel id="1">
+        <x>1</x>
+        <y>7</y>
+      </channel>
+      <channel id="2">
+        <x>2</x>
+        <y>7</y>
+      </channel>
+      <channel id="3">
+        <x>3</x>
+        <y>7</y>
+      </channel>
+      <channel id="4">
+        <x>0</x>
+        <y>6</y>
+      </channel>
+      <channel id="5">
+        <x>1</x>
+        <y>6</y>
+      </channel>
+      <channel id="6">
+        <x>0</x>
+        <y>5</y>
+      </channel>
+      <channel id="7">
+        <x>2</x>
+        <y>6</y>
+      </channel>
+      <channel id="8">
+        <x>4</x>
+        <y>7</y>
+      </channel>
+      <channel id="9">
+        <x>1</x>
+        <y>5</y>
+      </channel>
+      <channel id="10">
+        <x>0</x>
+        <y>4</y>
+      </channel>
+      <channel id="11">
+        <x>3</x>
+        <y>6</y>
+      </channel>
+      <channel id="12">
+        <x>0</x>
+        <y>3</y>
+      </channel>
+      <channel id="13">
+        <x>0</x>
+        <y>2</y>
+      </channel>
+      <channel id="14">
+        <x>4</x>
+        <y>6</y>
+      </channel>
+      <channel id="15">
+        <x>2</x>
+        <y>5</y>
+      </channel>
+      <channel id="16">
+        <x>1</x>
+        <y>4</y>
+      </channel>
+      <channel id="17">
+        <x>0</x>
+        <y>1</y>
+      </channel>
+      <channel id="18">
+        <x>0</x>
+        <y>0</y>
+      </channel>
+      <channel id="19">
+        <x>3</x>
+        <y>5</y>
+      </channel>
+      <channel id="20">
+        <x>5</x>
+        <y>7</y>
+      </channel>
+      <channel id="21">
+        <x>1</x>
+        <y>3</y>
+      </channel>
+      <channel id="22">
+        <x>2</x>
+        <y>4</y>
+      </channel>
+      <channel id="23">
+        <x>1</x>
+        <y>2</y>
+      </channel>
+      <channel id="24">
+        <x>4</x>
+        <y>5</y>
+      </channel>
+      <channel id="25">
+        <x>1</x>
+        <y>1</y>
+      </channel>
+      <channel id="26">
+        <x>5</x>
+        <y>6</y>
+      </channel>
+      <channel id="27">
+        <x>1</x>
+        <y>0</y>
+      </channel>
+      <channel id="28">
+        <x>3</x>
+        <y>4</y>
+      </channel>
+      <channel id="29">
+        <x>2</x>
+        <y>3</y>
+      </channel>
+      <channel id="30">
+        <x>2</x>
+        <y>2</y>
+      </channel>
+      <channel id="31">
+        <x>2</x>
+        <y>1</y>
+      </channel>
+      <channel id="32">
+        <x>2</x>
+        <y>0</y>
+      </channel>
+      <channel id="33">
+        <x>4</x>
+        <y>4</y>
+      </channel>
+      <channel id="34">
+        <x>6</x>
+        <y>7</y>
+      </channel>
+      <channel id="35">
+        <x>5</x>
+        <y>5</y>
+      </channel>
+      <channel id="36">
+        <x>3</x>
+        <y>3</y>
+      </channel>
+      <channel id="37">
+        <x>3</x>
+        <y>2</y>
+      </channel>
+      <channel id="38">
+        <x>3</x>
+        <y>1</y>
+      </channel>
+      <channel id="39">
+        <x>3</x>
+        <y>0</y>
+      </channel>
+      <channel id="40">
+        <x>6</x>
+        <y>6</y>
+      </channel>
+      <channel id="41">
+        <x>5</x>
+        <y>4</y>
+      </channel>
+      <channel id="42">
+        <x>4</x>
+        <y>3</y>
+      </channel>
+      <channel id="43">
+        <x>4</x>
+        <y>2</y>
+      </channel>
+      <channel id="44">
+        <x>4</x>
+        <y>1</y>
+      </channel>
+      <channel id="45">
+        <x>6</x>
+        <y>5</y>
+      </channel>
+      <channel id="46">
+        <x>4</x>
+        <y>0</y>
+      </channel>
+      <channel id="47">
+        <x>5</x>
+        <y>3</y>
+      </channel>
+      <channel id="48">
+        <x>5</x>
+        <y>2</y>
+      </channel>
+      <channel id="49">
+        <x>5</x>
+        <y>1</y>
+      </channel>
+      <channel id="50">
+        <x>6</x>
+        <y>4</y>
+      </channel>
+      <channel id="51">
+        <x>5</x>
+        <y>0</y>
+      </channel>
+      <channel id="52">
+        <x>6</x>
+        <y>3</y>
+      </channel>
+      <channel id="53">
+        <x>6</x>
+        <y>2</y>
+      </channel>
+      <channel id="54">
+        <x>6</x>
+        <y>1</y>
+      </channel>
+      <channel id="55">
+        <x>6</x>
+        <y>0</y>
+      </channel>
+      <channel id="56">
+        <x>7</x>
+        <y>6</y>
+      </channel>
+      <channel id="57">
+        <x>7</x>
+        <y>5</y>
+      </channel>
+      <channel id="58">
+        <x>7</x>
+        <y>4</y>
+      </channel>
+      <channel id="59">
+        <x>7</x>
+        <y>3</y>
+      </channel>
+      <channel id="60">
+        <x>7</x>
+        <y>2</y>
+      </channel>
+      <channel id="61">
+        <x>7</x>
+        <y>1</y>
+      </channel>
+      <channel id="62">
+        <x>7</x>
+        <y>0</y>
+      </channel>
+      <channel id="63">
+        <x>7</x>
+        <y>7</y>
+      </channel>
+    </section>
+  </detector>
+  <detector prefix="CdTeBB" type="2DPad" num_sections="1" num_channels="64" num_x="8" num_y="8">
+    <section id="0" total="64">
+      <channel id="0">
+        <x>7</x>
+        <y>7</y>
+      </channel>
+      <channel id="1">
+        <x>7</x>
+        <y>0</y>
+      </channel>
+      <channel id="2">
+        <x>7</x>
+        <y>1</y>
+      </channel>
+      <channel id="3">
+        <x>7</x>
+        <y>2</y>
+      </channel>
+      <channel id="4">
+        <x>7</x>
+        <y>3</y>
+      </channel>
+      <channel id="5">
+        <x>7</x>
+        <y>4</y>
+      </channel>
+      <channel id="6">
+        <x>7</x>
+        <y>5</y>
+      </channel>
+      <channel id="7">
+        <x>7</x>
+        <y>6</y>
+      </channel>
+      <channel id="8">
+        <x>6</x>
+        <y>0</y>
+      </channel>
+      <channel id="9">
+        <x>6</x>
+        <y>1</y>
+      </channel>
+      <channel id="10">
+        <x>6</x>
+        <y>2</y>
+      </channel>
+      <channel id="11">
+        <x>6</x>
+        <y>3</y>
+      </channel>
+      <channel id="12">
+        <x>5</x>
+        <y>0</y>
+      </channel>
+      <channel id="13">
+        <x>6</x>
+        <y>4</y>
+      </channel>
+      <channel id="14">
+        <x>5</x>
+        <y>1</y>
+      </channel>
+      <channel id="15">
+        <x>5</x>
+        <y>2</y>
+      </channel>
+      <channel id="16">
+        <x>5</x>
+        <y>3</y>
+      </channel>
+      <channel id="17">
+        <x>4</x>
+        <y>0</y>
+      </channel>
+      <channel id="18">
+        <x>6</x>
+        <y>5</y>
+      </channel>
+      <channel id="19">
+        <x>4</x>
+        <y>1</y>
+      </channel>
+      <channel id="20">
+        <x>4</x>
+        <y>2</y>
+      </channel>
+      <channel id="21">
+        <x>4</x>
+        <y>3</y>
+      </channel>
+      <channel id="22">
+        <x>5</x>
+        <y>4</y>
+      </channel>
+      <channel id="23">
+        <x>6</x>
+        <y>6</y>
+      </channel>
+      <channel id="24">
+        <x>3</x>
+        <y>0</y>
+      </channel>
+      <channel id="25">
+        <x>3</x>
+        <y>1</y>
+      </channel>
+      <channel id="26">
+        <x>3</x>
+        <y>2</y>
+      </channel>
+      <channel id="27">
+        <x>3</x>
+        <y>3</y>
+      </channel>
+      <channel id="28">
+        <x>5</x>
+        <y>5</y>
+      </channel>
+      <channel id="29">
+        <x>6</x>
+        <y>7</y>
+      </channel>
+      <channel id="30">
+        <x>4</x>
+        <y>4</y>
+      </channel>
+      <channel id="31">
+        <x>2</x>
+        <y>0</y>
+      </channel>
+      <channel id="32">
+        <x>2</x>
+        <y>1</y>
+      </channel>
+      <channel id="33">
+        <x>2</x>
+        <y>2</y>
+      </channel>
+      <channel id="34">
+        <x>2</x>
+        <y>3</y>
+      </channel>
+      <channel id="35">
+        <x>3</x>
+        <y>4</y>
+      </channel>
+      <channel id="36">
+        <x>1</x>
+        <y>0</y>
+      </channel>
+      <channel id="37">
+        <x>5</x>
+        <y>6</y>
+      </channel>
+      <channel id="38">
+        <x>1</x>
+        <y>1</y>
+      </channel>
+      <channel id="39">
+        <x>4</x>
+        <y>5</y>
+      </channel>
+      <channel id="40">
+        <x>1</x>
+        <y>2</y>
+      </channel>
+      <channel id="41">
+        <x>2</x>
+        <y>4</y>
+      </channel>
+      <channel id="42">
+        <x>1</x>
+        <y>3</y>
+      </channel>
+      <channel id="43">
+        <x>5</x>
+        <y>7</y>
+      </channel>
+      <channel id="44">
+        <x>3</x>
+        <y>5</y>
+      </channel>
+      <channel id="45">
+        <x>0</x>
+        <y>0</y>
+      </channel>
+      <channel id="46">
+        <x>0</x>
+        <y>1</y>
+      </channel>
+      <channel id="47">
+        <x>1</x>
+        <y>4</y>
+      </channel>
+      <channel id="48">
+        <x>2</x>
+        <y>5</y>
+      </channel>
+      <channel id="49">
+        <x>4</x>
+        <y>6</y>
+      </channel>
+      <channel id="50">
+        <x>0</x>
+        <y>2</y>
+      </channel>
+      <channel id="51">
+        <x>0</x>
+        <y>3</y>
+      </channel>
+      <channel id="52">
+        <x>3</x>
+        <y>6</y>
+      </channel>
+      <channel id="53">
+        <x>0</x>
+        <y>4</y>
+      </channel>
+      <channel id="54">
+        <x>1</x>
+        <y>5</y>
+      </channel>
+      <channel id="55">
+        <x>4</x>
+        <y>7</y>
+      </channel>
+      <channel id="56">
+        <x>2</x>
+        <y>6</y>
+      </channel>
+      <channel id="57">
+        <x>0</x>
+        <y>5</y>
+      </channel>
+      <channel id="58">
+        <x>1</x>
+        <y>6</y>
+      </channel>
+      <channel id="59">
+        <x>0</x>
+        <y>6</y>
+      </channel>
+      <channel id="60">
+        <x>3</x>
+        <y>7</y>
+      </channel>
+      <channel id="61">
+        <x>2</x>
+        <y>7</y>
+      </channel>
+      <channel id="62">
+        <x>1</x>
+        <y>7</y>
+      </channel>
+      <channel id="63">
+        <x>0</x>
+        <y>7</y>
+      </channel>
+    </section>
+  </detector>
+  <detector prefix="CdTeSL" type="2DPad" num_sections="1" num_channels="64" num_x="8" num_y="8">
+    <section id="0" total="64">
+      <channel id="0">
+        <x>0</x>
+        <y>7</y>
+      </channel>
+      <channel id="1">
+        <x>7</x>
+        <y>7</y>
+      </channel>
+      <channel id="2">
+        <x>6</x>
+        <y>7</y>
+      </channel>
+      <channel id="3">
+        <x>5</x>
+        <y>7</y>
+      </channel>
+      <channel id="4">
+        <x>4</x>
+        <y>7</y>
+      </channel>
+      <channel id="5">
+        <x>3</x>
+        <y>7</y>
+      </channel>
+      <channel id="6">
+        <x>2</x>
+        <y>7</y>
+      </channel>
+      <channel id="7">
+        <x>1</x>
+        <y>7</y>
+      </channel>
+      <channel id="8">
+        <x>7</x>
+        <y>6</y>
+      </channel>
+      <channel id="9">
+        <x>6</x>
+        <y>6</y>
+      </channel>
+      <channel id="10">
+        <x>5</x>
+        <y>6</y>
+      </channel>
+      <channel id="11">
+        <x>4</x>
+        <y>6</y>
+      </channel>
+      <channel id="12">
+        <x>7</x>
+        <y>5</y>
+      </channel>
+      <channel id="13">
+        <x>3</x>
+        <y>6</y>
+      </channel>
+      <channel id="14">
+        <x>6</x>
+        <y>5</y>
+      </channel>
+      <channel id="15">
+        <x>5</x>
+        <y>5</y>
+      </channel>
+      <channel id="16">
+        <x>4</x>
+        <y>5</y>
+      </channel>
+      <channel id="17">
+        <x>7</x>
+        <y>4</y>
+      </channel>
+      <channel id="18">
+        <x>2</x>
+        <y>6</y>
+      </channel>
+      <channel id="19">
+        <x>6</x>
+        <y>4</y>
+      </channel>
+      <channel id="20">
+        <x>5</x>
+        <y>4</y>
+      </channel>
+      <channel id="21">
+        <x>4</x>
+        <y>4</y>
+      </channel>
+      <channel id="22">
+        <x>3</x>
+        <y>5</y>
+      </channel>
+      <channel id="23">
+        <x>1</x>
+        <y>6</y>
+      </channel>
+      <channel id="24">
+        <x>7</x>
+        <y>3</y>
+      </channel>
+      <channel id="25">
+        <x>6</x>
+        <y>3</y>
+      </channel>
+      <channel id="26">
+        <x>5</x>
+        <y>3</y>
+      </channel>
+      <channel id="27">
+        <x>4</x>
+        <y>3</y>
+      </channel>
+      <channel id="28">
+        <x>2</x>
+        <y>5</y>
+      </channel>
+      <channel id="29">
+        <x>0</x>
+        <y>6</y>
+      </channel>
+      <channel id="30">
+        <x>3</x>
+        <y>4</y>
+      </channel>
+      <channel id="31">
+        <x>7</x>
+        <y>2</y>
+      </channel>
+      <channel id="32">
+        <x>6</x>
+        <y>2</y>
+      </channel>
+      <channel id="33">
+        <x>5</x>
+        <y>2</y>
+      </channel>
+      <channel id="34">
+        <x>4</x>
+        <y>2</y>
+      </channel>
+      <channel id="35">
+        <x>3</x>
+        <y>3</y>
+      </channel>
+      <channel id="36">
+        <x>7</x>
+        <y>1</y>
+      </channel>
+      <channel id="37">
+        <x>1</x>
+        <y>5</y>
+      </channel>
+      <channel id="38">
+        <x>6</x>
+        <y>1</y>
+      </channel>
+      <channel id="39">
+        <x>2</x>
+        <y>4</y>
+      </channel>
+      <channel id="40">
+        <x>5</x>
+        <y>1</y>
+      </channel>
+      <channel id="41">
+        <x>3</x>
+        <y>2</y>
+      </channel>
+      <channel id="42">
+        <x>4</x>
+        <y>1</y>
+      </channel>
+      <channel id="43">
+        <x>0</x>
+        <y>5</y>
+      </channel>
+      <channel id="44">
+        <x>2</x>
+        <y>3</y>
+      </channel>
+      <channel id="45">
+        <x>7</x>
+        <y>0</y>
+      </channel>
+      <channel id="46">
+        <x>6</x>
+        <y>0</y>
+      </channel>
+      <channel id="47">
+        <x>3</x>
+        <y>1</y>
+      </channel>
+      <channel id="48">
+        <x>2</x>
+        <y>2</y>
+      </channel>
+      <channel id="49">
+        <x>1</x>
+        <y>4</y>
+      </channel>
+      <channel id="50">
+        <x>5</x>
+        <y>0</y>
+      </channel>
+      <channel id="51">
+        <x>4</x>
+        <y>0</y>
+      </channel>
+      <channel id="52">
+        <x>1</x>
+        <y>3</y>
+      </channel>
+      <channel id="53">
+        <x>3</x>
+        <y>0</y>
+      </channel>
+      <channel id="54">
+        <x>2</x>
+        <y>1</y>
+      </channel>
+      <channel id="55">
+        <x>0</x>
+        <y>4</y>
+      </channel>
+      <channel id="56">
+        <x>1</x>
+        <y>2</y>
+      </channel>
+      <channel id="57">
+        <x>2</x>
+        <y>0</y>
+      </channel>
+      <channel id="58">
+        <x>1</x>
+        <y>1</y>
+      </channel>
+      <channel id="59">
+        <x>1</x>
+        <y>0</y>
+      </channel>
+      <channel id="60">
+        <x>0</x>
+        <y>3</y>
+      </channel>
+      <channel id="61">
+        <x>0</x>
+        <y>2</y>
+      </channel>
+      <channel id="62">
+        <x>0</x>
+        <y>1</y>
+      </channel>
+      <channel id="63">
+        <x>0</x>
+        <y>0</y>
+      </channel>
+    </section>
+  </detector>
+  <detector prefix="CdTeSR" type="2DPad" num_sections="1" num_channels="64" num_x="8" num_y="8">
+    <section id="0" total="64">
+      <channel id="0">
+        <x>0</x>
+        <y>7</y>
+      </channel>
+      <channel id="1">
+        <x>0</x>
+        <y>6</y>
+      </channel>
+      <channel id="2">
+        <x>0</x>
+        <y>5</y>
+      </channel>
+      <channel id="3">
+        <x>0</x>
+        <y>4</y>
+      </channel>
+      <channel id="4">
+        <x>1</x>
+        <y>7</y>
+      </channel>
+      <channel id="5">
+        <x>1</x>
+        <y>6</y>
+      </channel>
+      <channel id="6">
+        <x>2</x>
+        <y>7</y>
+      </channel>
+      <channel id="7">
+        <x>1</x>
+        <y>5</y>
+      </channel>
+      <channel id="8">
+        <x>0</x>
+        <y>3</y>
+      </channel>
+      <channel id="9">
+        <x>2</x>
+        <y>6</y>
+      </channel>
+      <channel id="10">
+        <x>3</x>
+        <y>7</y>
+      </channel>
+      <channel id="11">
+        <x>1</x>
+        <y>4</y>
+      </channel>
+      <channel id="12">
+        <x>4</x>
+        <y>7</y>
+      </channel>
+      <channel id="13">
+        <x>5</x>
+        <y>7</y>
+      </channel>
+      <channel id="14">
+        <x>1</x>
+        <y>3</y>
+      </channel>
+      <channel id="15">
+        <x>2</x>
+        <y>5</y>
+      </channel>
+      <channel id="16">
+        <x>3</x>
+        <y>6</y>
+      </channel>
+      <channel id="17">
+        <x>6</x>
+        <y>7</y>
+      </channel>
+      <channel id="18">
+        <x>7</x>
+        <y>7</y>
+      </channel>
+      <channel id="19">
+        <x>2</x>
+        <y>4</y>
+      </channel>
+      <channel id="20">
+        <x>0</x>
+        <y>2</y>
+      </channel>
+      <channel id="21">
+        <x>4</x>
+        <y>6</y>
+      </channel>
+      <channel id="22">
+        <x>3</x>
+        <y>5</y>
+      </channel>
+      <channel id="23">
+        <x>5</x>
+        <y>6</y>
+      </channel>
+      <channel id="24">
+        <x>2</x>
+        <y>3</y>
+      </channel>
+      <channel id="25">
+        <x>6</x>
+        <y>6</y>
+      </channel>
+      <channel id="26">
+        <x>1</x>
+        <y>2</y>
+      </channel>
+      <channel id="27">
+        <x>7</x>
+        <y>6</y>
+      </channel>
+      <channel id="28">
+        <x>3</x>
+        <y>4</y>
+      </channel>
+      <channel id="29">
+        <x>4</x>
+        <y>5</y>
+      </channel>
+      <channel id="30">
+        <x>5</x>
+        <y>5</y>
+      </channel>
+      <channel id="31">
+        <x>6</x>
+        <y>5</y>
+      </channel>
+      <channel id="32">
+        <x>7</x>
+        <y>5</y>
+      </channel>
+      <channel id="33">
+        <x>3</x>
+        <y>3</y>
+      </channel>
+      <channel id="34">
+        <x>0</x>
+        <y>1</y>
+      </channel>
+      <channel id="35">
+        <x>2</x>
+        <y>2</y>
+      </channel>
+      <channel id="36">
+        <x>4</x>
+        <y>4</y>
+      </channel>
+      <channel id="37">
+        <x>5</x>
+        <y>4</y>
+      </channel>
+      <channel id="38">
+        <x>6</x>
+        <y>4</y>
+      </channel>
+      <channel id="39">
+        <x>7</x>
+        <y>4</y>
+      </channel>
+      <channel id="40">
+        <x>1</x>
+        <y>1</y>
+      </channel>
+      <channel id="41">
+        <x>3</x>
+        <y>2</y>
+      </channel>
+      <channel id="42">
+        <x>4</x>
+        <y>3</y>
+      </channel>
+      <channel id="43">
+        <x>5</x>
+        <y>3</y>
+      </channel>
+      <channel id="44">
+        <x>6</x>
+        <y>3</y>
+      </channel>
+      <channel id="45">
+        <x>2</x>
+        <y>1</y>
+      </channel>
+      <channel id="46">
+        <x>7</x>
+        <y>3</y>
+      </channel>
+      <channel id="47">
+        <x>4</x>
+        <y>2</y>
+      </channel>
+      <channel id="48">
+        <x>5</x>
+        <y>2</y>
+      </channel>
+      <channel id="49">
+        <x>6</x>
+        <y>2</y>
+      </channel>
+      <channel id="50">
+        <x>3</x>
+        <y>1</y>
+      </channel>
+      <channel id="51">
+        <x>7</x>
+        <y>2</y>
+      </channel>
+      <channel id="52">
+        <x>4</x>
+        <y>1</y>
+      </channel>
+      <channel id="53">
+        <x>5</x>
+        <y>1</y>
+      </channel>
+      <channel id="54">
+        <x>6</x>
+        <y>1</y>
+      </channel>
+      <channel id="55">
+        <x>7</x>
+        <y>1</y>
+      </channel>
+      <channel id="56">
+        <x>1</x>
+        <y>0</y>
+      </channel>
+      <channel id="57">
+        <x>2</x>
+        <y>0</y>
+      </channel>
+      <channel id="58">
+        <x>3</x>
+        <y>0</y>
+      </channel>
+      <channel id="59">
+        <x>4</x>
+        <y>0</y>
+      </channel>
+      <channel id="60">
+        <x>5</x>
+        <y>0</y>
+      </channel>
+      <channel id="61">
+        <x>6</x>
+        <y>0</y>
+      </channel>
+      <channel id="62">
+        <x>7</x>
+        <y>0</y>
+      </channel>
+      <channel id="63">
+        <x>0</x>
+        <y>0</y>
+      </channel>
+    </section>
+  </detector>
+</channel_map>

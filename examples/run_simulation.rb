@@ -27,7 +27,7 @@ def run_simulation(num, random)
   sim.detector_config = "database/NORM_detector_configuration.xml"
   sim.simulation_param = "database/NORM_simulation_parameters.xml"
   sim.analysis_param = "database/NORM_analysis_parameters.xml"
-#  sim.use_gdml "database/mass_model.gdml"
+  sim.channel_map ="database/NORM_channel_map.xml"
 
   sim.set_physics(hadron_hp: false, cut_value: 0.001)
   sim.set_geometry :NormMainGeometry
@@ -48,7 +48,7 @@ end
 
 ### main ###
 
-num = 100000
+num = 1000000
 run_id = 0
 random = run_id
 run_simulation(num, random)
