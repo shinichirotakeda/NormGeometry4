@@ -46,9 +46,9 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* LocalWorld_Logical = new G4LogicalVolume(LocalWorld_Solid, air, "LocalWorld_Logical");
 
 
+  G4double offset = 24.0*mm;
 
-  //CC Case hyoumen ga 0.0mm
-
+  
   ///// CC Case /////////////////////////
   ///// CCCaseFrontBoard /////////////////////////
   G4double CCCaseFrontBoard_xSize = 206.0*mm;
@@ -58,7 +58,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseFrontBoard_Logical = new G4LogicalVolume(CCCaseFrontBoard_Solid, aluminium, "CCCaseFrontBoard_Logical");
   G4double CCCaseFrontBoard_xPos = 0.0*mm;
   G4double CCCaseFrontBoard_yPos = 0.0*mm;
-  G4double CCCaseFrontBoard_zPos = -CCCaseFrontBoard_zSize*0.5;
+  G4double CCCaseFrontBoard_zPos = -CCCaseFrontBoard_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseFrontBoard_xPos, CCCaseFrontBoard_yPos, CCCaseFrontBoard_zPos), CCCaseFrontBoard_Logical, "CCCaseFrontBoard", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CCCaseAlumiFrame /////////////////////////
   G4double CCCaseAlumiFrame_xSize = 194.0*mm;
@@ -73,7 +73,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseAlumiFrame_Logical = new G4LogicalVolume(CCCaseAlumiFrame_Solid, aluminium, "CCCaseAlumiFrame_Logical");
   G4double CCCaseAlumiFrame_xPos = 0.0*mm;
   G4double CCCaseAlumiFrame_yPos = 0.0*mm;
-  G4double CCCaseAlumiFrame_zPos = -CCCaseFrontBoard_zSize - CCCaseAlumiFrame_zSize*0.5;
+  G4double CCCaseAlumiFrame_zPos = -CCCaseFrontBoard_zSize - CCCaseAlumiFrame_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseAlumiFrame_xPos, CCCaseAlumiFrame_yPos, CCCaseAlumiFrame_zPos), CCCaseAlumiFrame_Logical, "CCCaseAlumiFrame", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CC Case Dodai B /////////////////////////
   G4double CCCaseDodaiB_xSize = 194.0*mm;
@@ -83,7 +83,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseDodaiB_Logical = new G4LogicalVolume(CCCaseDodaiB_Solid, aluminium, "CCCaseDodaiB_Logical");
   G4double CCCaseDodaiB_xPos = 0.0*mm;
   G4double CCCaseDodaiB_yPos = 0.0*mm;
-  G4double CCCaseDodaiB_zPos = -CCCaseFrontBoard_zSize - 194.0*mm - CCCaseDodaiB_zSize*0.5;
+  G4double CCCaseDodaiB_zPos = -CCCaseFrontBoard_zSize - 194.0*mm - CCCaseDodaiB_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseDodaiB_xPos, CCCaseDodaiB_yPos, CCCaseDodaiB_zPos), CCCaseDodaiB_Logical, "CCCaseDodaiB", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CCCaseRearBoard /////////////////////////
   G4double CCCaseRearBoard_xSize = 206.0*mm;
@@ -93,7 +93,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseRearBoard_Logical = new G4LogicalVolume(CCCaseRearBoard_Solid, aluminium, "CCCaseRearBoard_Logical");
   G4double CCCaseRearBoard_xPos = 0.0*mm;
   G4double CCCaseRearBoard_yPos = 0.0*mm;
-  G4double CCCaseRearBoard_zPos = -CCCaseFrontBoard_zSize - 310.0*mm - CCCaseRearBoard_zSize*0.5;
+  G4double CCCaseRearBoard_zPos = -CCCaseFrontBoard_zSize - 310.0*mm - CCCaseRearBoard_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseRearBoard_xPos, CCCaseRearBoard_yPos, CCCaseRearBoard_zPos), CCCaseRearBoard_Logical, "CCCaseRearBoard", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CC Case Dodai A /////////////////////////
   G4double CCCaseDodaiA_xSize = 6.0*mm;
@@ -103,7 +103,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseDodaiA_Logical = new G4LogicalVolume(CCCaseDodaiA_Solid, aluminium, "CCCaseDodaiA_Logical");
   G4double CCCaseDodaiA_xPos = -97.0*mm - CCCaseDodaiA_xSize*0.5;
   G4double CCCaseDodaiA_yPos = 0.0*mm;
-  G4double CCCaseDodaiA_zPos = -CCCaseFrontBoard_zSize - CCCaseDodaiA_zSize*0.5;
+  G4double CCCaseDodaiA_zPos = -CCCaseFrontBoard_zSize - CCCaseDodaiA_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseDodaiA_xPos, CCCaseDodaiA_yPos, CCCaseDodaiA_zPos), CCCaseDodaiA_Logical, "CCCaseDodaiA", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CC Case MIO Board Base /////////////////////////
   G4double CCCaseMIOBoardBase_xSize = 6.0*mm;
@@ -113,7 +113,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseMIOBoardBase_Logical = new G4LogicalVolume(CCCaseMIOBoardBase_Solid, aluminium, "CCCaseMIOBoardBase_Logical");
   G4double CCCaseMIOBoardBase_xPos = 97.0*mm + CCCaseMIOBoardBase_xSize*0.5;
   G4double CCCaseMIOBoardBase_yPos = 0.0*mm;
-  G4double CCCaseMIOBoardBase_zPos = -CCCaseFrontBoard_zSize - CCCaseMIOBoardBase_zSize*0.5;
+  G4double CCCaseMIOBoardBase_zPos = -CCCaseFrontBoard_zSize - CCCaseMIOBoardBase_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseMIOBoardBase_xPos, CCCaseMIOBoardBase_yPos, CCCaseMIOBoardBase_zPos), CCCaseMIOBoardBase_Logical, "CCCaseMIOBoardBase", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CCCaseSideBoardA /////////////////////////
   G4double CCCaseSideBoardA_xSize = 206.0*mm;
@@ -123,7 +123,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseSideBoardA_Logical = new G4LogicalVolume(CCCaseSideBoardA_Solid, aluminium, "CCCaseSideBoardA_Logical");
   G4double CCCaseSideBoardA_xPos = 0.0*mm;
   G4double CCCaseSideBoardA_yPos = -95.0*mm - CCCaseSideBoardA_ySize*0.5;
-  G4double CCCaseSideBoardA_zPos = -CCCaseSideBoardA_zSize*0.5;
+  G4double CCCaseSideBoardA_zPos = -CCCaseSideBoardA_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseSideBoardA_xPos, CCCaseSideBoardA_yPos, CCCaseSideBoardA_zPos), CCCaseSideBoardA_Logical, "CCCaseSideBoardA", LocalWorld_Logical, false, 0, surfaceCheck);
   ///// CCCaseSideBoardB /////////////////////////
   G4double CCCaseSideBoardB_xSize = 206.0*mm;
@@ -133,7 +133,7 @@ G4LogicalVolume* GeometryNorm::Construct() {
   G4LogicalVolume* CCCaseSideBoardB_Logical = new G4LogicalVolume(CCCaseSideBoardB_Solid, aluminium, "CCCaseSideBoardB_Logical");
   G4double CCCaseSideBoardB_xPos = 0.0*mm;
   G4double CCCaseSideBoardB_yPos = 95.0*mm + CCCaseSideBoardB_ySize*0.5;
-  G4double CCCaseSideBoardB_zPos = -CCCaseSideBoardB_zSize*0.5;
+  G4double CCCaseSideBoardB_zPos = -CCCaseSideBoardB_zSize*0.5 + offset;
   new G4PVPlacement(0, G4ThreeVector(CCCaseSideBoardB_xPos, CCCaseSideBoardB_yPos, CCCaseSideBoardB_zPos), CCCaseSideBoardB_Logical, "CCCaseSideBoardB", LocalWorld_Logical, false, 0, surfaceCheck);
 
 

@@ -133,8 +133,11 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4double TopFrame_zPos = ComptonCamera_zSize*0.5 - TopCover_zSize - TopFrame_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(TopFrame_xPos, TopFrame_yPos, TopFrame_zPos), TopFrame_Logical, "TopFrame", ComptonCamera_Logical, false, 0, surfaceCheck);
   // constant //
-  const G4double stackpitchcdte = 4.4*mm;
+
   const G4double fec2tray = 0.14*mm;
+  const G4double stackpitchsi = 3.6*mm;
+  const G4double stackpitchcdte = 4.4*mm;
+  const G4double topcoverue2sipadue = TopCover_zSize + TopFrame_zSize + 1.0*mm;
 
   // FEC Kiban ////////////////////////
   G4double FecKiban_zSize = 0.4*mm;
@@ -166,18 +169,60 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4VSolid* Asic_Solid = new G4Box("Asic_Solid", Asic_xSize*0.5, Asic_ySize*0.5, Asic_zSize*0.5);
   G4LogicalVolume* Asic_Logical = new G4LogicalVolume(Asic_Solid, si, "Asic_Logical");
 
+  // SiPad //////////////////////////////
+  G4double SiPad_xSize = 53.9*mm;
+  G4double SiPad_ySize = 53.9*mm;
+  G4double SiPad_zSize = 0.6*mm;
+  
+  // Plate /////////////////////////////
+  G4double Plate_zSize = 1.2*mm;
+  G4double PlateBody_xSize = 112.2*mm;
+  G4double PlateBody_ySize = 112.2*mm;
+  G4double PlateBody_zSize = Plate_zSize;
+  G4VSolid* PlateBody_Solid = new G4Box("PlateBody_Solid", PlateBody_xSize*0.5, PlateBody_ySize*0.5, PlateBody_zSize*0.5);
+  G4double PlateHole1_xSize = 24.3*mm;
+  G4double PlateHole1_ySize = 61.2*mm;
+  G4double PlateHole1_zSize = Plate_zSize;
+  G4double PlateHole1_xPos = PlateBody_xSize*0.5 - PlateHole1_xSize*0.5;
+  G4double PlateHole1_yPos = PlateBody_ySize*0.5 - PlateHole1_ySize*0.5;
+  G4double PlateHole1_zPos = 0.0*mm;
+  G4VSolid* PlateHole1_Solid = new G4Box("PlateHole1_Solid", PlateHole1_xSize*0.5 + margin, PlateHole1_ySize*0.5 + margin, PlateHole1_zSize*0.5 + margin);
+  G4double PlateHole2_xSize = 8.7*mm;
+  G4double PlateHole2_ySize = 56.8*mm;
+  G4double PlateHole2_zSize = Plate_zSize;
+  G4double PlateHole2_xPos = PlateBody_xSize*0.5 - 18.6*mm - PlateHole2_xSize*0.5;
+  G4double PlateHole2_yPos = PlateBody_ySize*0.5 - 13.1*mm - PlateHole2_ySize*0.5;
+  G4double PlateHole2_zPos = 0.0*mm;
+  G4VSolid* PlateHole2_Solid = new G4Box("PlateHole2_Solid", PlateHole2_xSize*0.5, PlateHole2_ySize*0.5, PlateHole2_zSize*0.5 + margin);
+  G4VSolid* Plate_Solid = PlateBody_Solid;
+  for (int i = 0; i < 4; i++) {
+    G4VSolid* tmp = Plate_Solid;
+    G4ThreeVector pos = G4ThreeVector(PlateHole1_xPos + margin, PlateHole1_yPos + margin, PlateHole1_zPos);
+    G4RotationMatrix rot = G4RotationMatrix();
+    pos.rotateZ(90.0*deg*i);
+    rot.rotateZ(90.0*deg*i);
+    Plate_Solid = new G4SubtractionSolid("Plate_Solid", tmp, PlateHole1_Solid, G4Transform3D(rot, pos));
+  }
+  for (int i = 0; i < 4; i++) {
+    G4VSolid* tmp = Plate_Solid;
+    G4ThreeVector pos = G4ThreeVector(PlateHole2_xPos, PlateHole2_yPos, PlateHole2_zPos);
+    G4RotationMatrix rot = G4RotationMatrix();
+    pos.rotateZ(90.0*deg*i);
+    rot.rotateZ(90.0*deg*i);
+    Plate_Solid = new G4SubtractionSolid("Plate_Solid", tmp, PlateHole2_Solid, G4Transform3D(rot, pos));
+  }
+  G4LogicalVolume* Plate_Logical = new G4LogicalVolume(Plate_Solid, polyimide, "Plate_Logical");
+  G4double Plate_xPos = 0.0*mm;
+  G4double Plate_yPos = 0.0*mm;
+  G4double Plate_zPos = ComptonCamera_zSize*0.5 - topcoverue2sipadue - SiPad_zSize - 0.2*mm - stackpitchsi * 15 - stackpitchsi*0.5 - Plate_zSize*0.5;
+  new G4PVPlacement(0, G4ThreeVector(Plate_xPos, Plate_yPos, Plate_zPos), Plate_Logical, "Plate", ComptonCamera_Logical, false, 0, surfaceCheck);
+
   // CdTePad //////////////////////////////
   G4double CdTePad_xSize = 26.75*mm;
   G4double CdTePad_ySize = 26.75*mm;
   G4double CdTePad_zSize = 0.75*mm;
   G4VSolid* CdTePad_Solid = new G4Box("CdTePad_Solid", CdTePad_xSize*0.5, CdTePad_ySize*0.5, CdTePad_zSize*0.5);
   G4LogicalVolume* CdTePad_Logical = new G4LogicalVolume(CdTePad_Solid, cdte, "CdTePad_Logical");
-
-
-  // SiPad tkd
-  G4VSolid* SiPad_Solid = new G4Box("SiPad_Solid", CdTePad_xSize*0.5, CdTePad_ySize*0.5, CdTePad_zSize*0.5);
-  G4LogicalVolume* SiPad_Logical = new G4LogicalVolume(SiPad_Solid, si, "SiPad_Logical");
-
   // FanOut /////////////////////////////////
   G4double FanOut_xSize = 25.5*mm;
   G4double FanOut_ySize = 25.5*mm;
@@ -185,7 +230,8 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4VSolid* FanOut_Solid = new G4Box("FanOut_Solid", FanOut_xSize*0.5, FanOut_ySize*0.5, FanOut_zSize*0.5);
   G4LogicalVolume* FanOut_Logical = new G4LogicalVolume(FanOut_Solid, alumina, "FanOut_Logical");
   // CdTeBtmModule ////////////////////////
-  G4double CdTeBtmModule_zSize = 4.4*mm;
+  //  G4double CdTeBtmModule_zSize = 4.4*mm;
+  G4double CdTeBtmModule_zSize = 3.6*mm;
   G4double CdTeBtmModuleBody_xSize = 112.2*mm;
   G4double CdTeBtmModuleBody_ySize = 112.2*mm;
   G4double CdTeBtmModuleBody_zSize = CdTeBtmModule_zSize;
@@ -222,7 +268,7 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
     CdTeBtmModule_Solid = new G4SubtractionSolid("CdTeBtmModule_Solid", tmp, CdTeBtmModuleHole2_Solid, G4Transform3D(rot, pos));
   }
   G4LogicalVolume* CdTeBtmModule_Logical = new G4LogicalVolume(CdTeBtmModule_Solid, air, "CdTeBtmModule_Logical");
-  G4LogicalVolume* SiBtmModule_Logical = new G4LogicalVolume(CdTeBtmModule_Solid, air, "SiBtmModule_Logical"); // tkd
+  //  G4LogicalVolume* SiBtmModule_Logical = new G4LogicalVolume(CdTeBtmModule_Solid, air, "SiBtmModule_Logical"); // tkd
 
   // CdTeBtmTray1 /////////////////////////////
   G4double CdTeBtmTray1_zSize = 0.5*mm;
@@ -306,17 +352,17 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4double CdTeBtmTray1_yPos = 0.0*mm;
   G4double CdTeBtmTray1_zPos = -0.05*mm;
   new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray1_xPos, CdTeBtmTray1_yPos, CdTeBtmTray1_zPos), CdTeBtmTray1_Logical, "CdTeBtmTray1", CdTeBtmModule_Logical, false, 0, surfaceCheck);
-  new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray1_xPos, CdTeBtmTray1_yPos, CdTeBtmTray1_zPos), CdTeBtmTray1_Logical, "CdTeBtmTray1", SiBtmModule_Logical, false, 0, surfaceCheck); // tkd
+  //  new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray1_xPos, CdTeBtmTray1_yPos, CdTeBtmTray1_zPos), CdTeBtmTray1_Logical, "CdTeBtmTray1", SiBtmModule_Logical, false, 0, surfaceCheck); // tkd
   G4double CdTeBtmTray2_xPos = 0.0*mm;
   G4double CdTeBtmTray2_yPos = 0.0*mm;
   G4double CdTeBtmTray2_zPos = CdTeBtmTray1_zPos + CdTeBtmTray1_zSize*0.5 + 0.25*mm + CdTePad_zSize + 0.1*mm + FanOut_zSize + 0.1*mm + CdTeBtmTray2_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray2_xPos, CdTeBtmTray2_yPos, CdTeBtmTray2_zPos), CdTeBtmTray2_Logical, "CdTeBtmTray2", CdTeBtmModule_Logical, false, 0, surfaceCheck);
-  new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray2_xPos, CdTeBtmTray2_yPos, CdTeBtmTray2_zPos), CdTeBtmTray2_Logical, "CdTeBtmTray2", SiBtmModule_Logical, false, 0, surfaceCheck); //tkd
+  //  new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray2_xPos, CdTeBtmTray2_yPos, CdTeBtmTray2_zPos), CdTeBtmTray2_Logical, "CdTeBtmTray2", SiBtmModule_Logical, false, 0, surfaceCheck); //tkd
   G4double CdTeBtmTray3_xPos = 0.0*mm;
   G4double CdTeBtmTray3_yPos = 0.0*mm;
   G4double CdTeBtmTray3_zPos = CdTeBtmTray1_zPos - CdTeBtmTray1_zSize*0.5 - 0.15*mm - CdTePad_zSize - 0.1*mm - FanOut_zSize - 0.1*mm - CdTeBtmTray3_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray3_xPos, CdTeBtmTray3_yPos, CdTeBtmTray3_zPos), CdTeBtmTray3_Logical, "CdTeBtmTray3", CdTeBtmModule_Logical, false, 0, surfaceCheck);
-  new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray3_xPos, CdTeBtmTray3_yPos, CdTeBtmTray3_zPos), CdTeBtmTray3_Logical, "CdTeBtmTray3", SiBtmModule_Logical, false, 0, surfaceCheck); //tkd
+  //  new G4PVPlacement(0, G4ThreeVector(CdTeBtmTray3_xPos, CdTeBtmTray3_yPos, CdTeBtmTray3_zPos), CdTeBtmTray3_Logical, "CdTeBtmTray3", SiBtmModule_Logical, false, 0, surfaceCheck); //tkd
   G4double BtmCdTePadTop_xPos = BtmCdTePad_Space*0.5 + CdTePad_xSize*0.5;
   G4double BtmCdTePadTop_yPos = BtmCdTePad_Space*0.5 + CdTePad_ySize*0.5;
   G4double BtmCdTePadTop_zPos = CdTeBtmTray1_zPos + CdTeBtmTray1_zSize*0.5 + 0.25*mm + CdTePad_zSize*0.5;
@@ -366,51 +412,41 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
     rot.rotateZ(90.0*deg*i);
     sprintf(name, "CdTePadTop%02d", i);
     sprintf(name2, "CdTePadBtm%02d", i);
-    new G4PVPlacement(G4Transform3D(rot, padtoppos), CdTePad_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
+    //    new G4PVPlacement(G4Transform3D(rot, padtoppos), CdTePad_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
     new G4PVPlacement(G4Transform3D(rot, padbtmpos), CdTePad_Logical, name2, CdTeBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, padtoppos), SiPad_Logical, name, SiBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, padbtmpos), SiPad_Logical, name2, SiBtmModule_Logical, false, i, surfaceCheck);
     sprintf(name, "FanOutTop%02d", i);
     sprintf(name2, "FanOutBtm%02d", i);
-    new G4PVPlacement(G4Transform3D(rot, fanouttoppos), FanOut_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
+    //    new G4PVPlacement(G4Transform3D(rot, fanouttoppos), FanOut_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
     new G4PVPlacement(G4Transform3D(rot, fanoutbtmpos), FanOut_Logical, name2, CdTeBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, fanouttoppos), FanOut_Logical, name, SiBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, fanoutbtmpos), FanOut_Logical, name2, SiBtmModule_Logical, false, i, surfaceCheck);
     sprintf(name, "FecKibanTop%02d", i);
     sprintf(name2, "FecKibanBtm%02d", i);
-    new G4PVPlacement(G4Transform3D(rot, fectoppos), FecKiban_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
+    //    new G4PVPlacement(G4Transform3D(rot, fectoppos), FecKiban_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
     new G4PVPlacement(G4Transform3D(rot, fecbtmpos), FecKiban_Logical, name2, CdTeBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, fectoppos), FecKiban_Logical, name, SiBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, fecbtmpos), FecKiban_Logical, name2, SiBtmModule_Logical, false, i, surfaceCheck);
     sprintf(name, "AsicTop%02d", i);
     sprintf(name2, "AsicBtm%02d", i);
-    new G4PVPlacement(G4Transform3D(rot, asictoppos), Asic_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
+    //    new G4PVPlacement(G4Transform3D(rot, asictoppos), Asic_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
     new G4PVPlacement(G4Transform3D(rot, asicbtmpos), Asic_Logical, name2, CdTeBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, asictoppos), Asic_Logical, name, SiBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, asicbtmpos), Asic_Logical, name2, SiBtmModule_Logical, false, i, surfaceCheck);
     sprintf(name, "CdTeBtmYoko1%02d", i);
     sprintf(name2, "CdTeBtmYoko2%02d", i);
-    new G4PVPlacement(G4Transform3D(rot, yoko1pos), CdTeBtmYoko1_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
+    //    new G4PVPlacement(G4Transform3D(rot, yoko1pos), CdTeBtmYoko1_Logical, name, CdTeBtmModule_Logical, false, i, surfaceCheck);
     new G4PVPlacement(G4Transform3D(rot, yoko2pos), CdTeBtmYoko2_Logical, name2, CdTeBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, yoko1pos), CdTeBtmYoko1_Logical, name, SiBtmModule_Logical, false, i, surfaceCheck);
-    new G4PVPlacement(G4Transform3D(rot, yoko2pos), CdTeBtmYoko2_Logical, name2, SiBtmModule_Logical, false, i, surfaceCheck);
   }
   // CdTeBtmModule Placement ////////////////////
   G4double CdTeBtmModule_xPos = 0.0*mm;
   G4double CdTeBtmModule_yPos = 0.0*mm;
-  G4double CdTeBtmModule_offset = ComptonCamera_zSize*0.5 - TopCover_zSize - TopFrame_zSize;
-  for (int i = 0; i < 5; i++) {
-    G4double CdTeBtmModule_zPos = CdTeBtmModule_offset - stackpitchcdte*0.5 - stackpitchcdte * i - 3.6*mm * i;
-    sprintf(name, "CdTeBtmModule%02d", i);
-    new G4PVPlacement(0, G4ThreeVector(CdTeBtmModule_xPos, CdTeBtmModule_yPos, CdTeBtmModule_zPos), SiBtmModule_Logical, name, ComptonCamera_Logical, false, i, surfaceCheck);
-  }
+  G4double CdTeBtmModule_offset = Plate_zPos - Plate_zSize*0.5;
 
-  for (int i = 5; i < 10; i++) {
-    G4double CdTeBtmModule_zPos = CdTeBtmModule_offset - stackpitchcdte*0.5 - stackpitchcdte * i - 3.6*mm * i;
+  for (int i = 0; i < 16; i++) {
+    G4double CdTeBtmModule_zPos = ComptonCamera_zSize*0.5 - topcoverue2sipadue - SiPad_zSize + 0.525*mm - stackpitchsi * i;
     sprintf(name, "CdTeBtmModule%02d", i);
     new G4PVPlacement(0, G4ThreeVector(CdTeBtmModule_xPos, CdTeBtmModule_yPos, CdTeBtmModule_zPos), CdTeBtmModule_Logical, name, ComptonCamera_Logical, false, i, surfaceCheck);
   }
 
+  for (int i = 16; i < 20; i++) {
+    G4double CdTeBtmModule_zPos = CdTeBtmModule_offset - stackpitchcdte*0.5 - stackpitchcdte * (i-16);
+    sprintf(name, "CdTeBtmModule%02d", i);
+    new G4PVPlacement(0, G4ThreeVector(CdTeBtmModule_xPos, CdTeBtmModule_yPos, CdTeBtmModule_zPos), CdTeBtmModule_Logical, name, ComptonCamera_Logical, false, i, surfaceCheck);
+  }
   
   // Adb //////////////////////
   G4double AdbModule_xSize = 8.0*mm;
@@ -565,7 +601,7 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   new G4PVPlacement(0, G4ThreeVector(0.0*mm, 0.0*mm, -0.85*mm), BottomFrameAElement2_Logical, "BottomFrameAElement2", BottomFrameA_Logical, false, 0, surfaceCheck);
   G4double BottomFrameA_xPos = 0.0*mm;
   G4double BottomFrameA_yPos = 0.0*mm;
-  G4double BottomFrameA_zPos = CdTeBtmModule_offset - stackpitchcdte*10 - 3.6*mm * 9 - BottomFrameA_zSize*0.5;
+  G4double BottomFrameA_zPos = CdTeBtmModule_offset - stackpitchcdte*4 - BottomFrameA_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(BottomFrameA_xPos, BottomFrameA_yPos, BottomFrameA_zPos), BottomFrameA_Logical, "BottomFrameA", ComptonCamera_Logical, false, 0, surfaceCheck);
   // BottomPwb /////////////////////////////
   G4double BottomPwb_zSize = 1.6*mm;
@@ -607,7 +643,7 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4LogicalVolume* BottomPwb_Logical = new G4LogicalVolume(BottomPwb_Solid, fr4, "BottomPwb_Logical");
   G4double BottomPwb_xPos = 0.0*mm;
   G4double BottomPwb_yPos = 0.0*mm;
-  G4double BottomPwb_zPos = CdTeBtmModule_offset - stackpitchcdte*10 - 3.6*mm * 9 - BottomFrameA_zSize - BottomPwb_zSize*0.5;
+  G4double BottomPwb_zPos = CdTeBtmModule_offset - stackpitchcdte*4 - BottomFrameA_zSize - BottomPwb_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(BottomPwb_xPos, BottomPwb_yPos, BottomPwb_zPos), BottomPwb_Logical, "BottomPwb", ComptonCamera_Logical, false, 0, surfaceCheck);
   // BottomFrameB /////////////////////////////
   G4double BottomFrameB_zSize = 17.1*mm;
@@ -656,7 +692,7 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4LogicalVolume* BottomFrameB_Logical = new G4LogicalVolume(BottomFrameB_Solid, polyimide, "BottomFrameB_Logical");
   G4double BottomFrameB_xPos = 0.0*mm;
   G4double BottomFrameB_yPos = 0.0*mm;
-  G4double BottomFrameB_zPos = CdTeBtmModule_offset - stackpitchcdte*10 - 3.6*mm * 9 - BottomFrameA_zSize - BottomPwb_zSize - BottomFrameB_zSize*0.5;
+  G4double BottomFrameB_zPos = CdTeBtmModule_offset - stackpitchcdte*4 - BottomFrameA_zSize - BottomPwb_zSize - BottomFrameB_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(BottomFrameB_xPos, BottomFrameB_yPos, BottomFrameB_zPos), BottomFrameB_Logical, "BottomFrameB", ComptonCamera_Logical, false, 0, surfaceCheck);
   // BottomPwb2 //////////////////////
   G4double BottomPwb2_xSize = 48.6*mm;
@@ -666,7 +702,7 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4LogicalVolume* BottomPwb2_Logical = new G4LogicalVolume(BottomPwb2_Solid, fr4, "BottomPwb2_Logical");
   G4double BottomPwb2_xPos = 0.0*mm;
   G4double BottomPwb2_yPos = 0.0*mm;
-  G4double BottomPwb2_zPos = CdTeBtmModule_offset - stackpitchcdte*10 - 3.6*mm * 9 - BottomFrameA_zSize - BottomPwb_zSize - 4.55*mm - BottomPwb2_zSize*0.5;
+  G4double BottomPwb2_zPos = CdTeBtmModule_offset - stackpitchcdte*4 - BottomFrameA_zSize - BottomPwb_zSize - 4.55*mm - BottomPwb2_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(BottomPwb2_xPos, BottomPwb2_yPos, BottomPwb2_zPos), BottomPwb2_Logical, "BottomPwb2", ComptonCamera_Logical, false, 0, surfaceCheck);
   // BottomPwb3 /////////////////////////////
   G4double BottomPwb3_zSize = 2.0*mm;
@@ -693,7 +729,7 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4LogicalVolume* BottomPwb3_Logical = new G4LogicalVolume(BottomPwb3_Solid, fr4, "BottomPwb3_Logical");
   G4double BottomPwb3_xPos = 0.0*mm;
   G4double BottomPwb3_yPos = 0.0*mm;
-  G4double BottomPwb3_zPos = CdTeBtmModule_offset - stackpitchcdte*10 - 3.6*mm * 9 - BottomFrameA_zSize - BottomPwb_zSize - BottomFrameB_zSize - 0.1*mm - BottomPwb3_zSize*0.5;
+  G4double BottomPwb3_zPos = CdTeBtmModule_offset - stackpitchcdte*4 - BottomFrameA_zSize - BottomPwb_zSize - BottomFrameB_zSize - 0.1*mm - BottomPwb3_zSize*0.5;
   new G4PVPlacement(0, G4ThreeVector(BottomPwb3_xPos, BottomPwb3_yPos, BottomPwb3_zPos), BottomPwb3_Logical, "BottomPwb3", ComptonCamera_Logical, false, 0, surfaceCheck);
   // SideCover ////////////////////////
   G4double SideCover_zSize = 108.0*mm;
@@ -846,9 +882,9 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   G4VisAttributes* cdtepad_Attributes = new G4VisAttributes(G4Colour::Red());
   cdtepad_Attributes->SetForceSolid(true);
   CdTePad_Logical->SetVisAttributes(cdtepad_Attributes);
-  G4VisAttributes* sipad_Attributes = new G4VisAttributes(G4Colour::Blue());
-  sipad_Attributes->SetForceSolid(true);
-  SiPad_Logical->SetVisAttributes(sipad_Attributes);
+  //  G4VisAttributes* sipad_Attributes = new G4VisAttributes(G4Colour::Blue());
+  //  sipad_Attributes->SetForceSolid(true);
+  //  SiPad_Logical->SetVisAttributes(sipad_Attributes);
 
   return ComptonCamera_Logical;
 }
