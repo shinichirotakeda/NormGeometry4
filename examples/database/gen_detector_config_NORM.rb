@@ -84,7 +84,7 @@ def build_detectors(x)
 
   si_layers.times do |i|
     detid0 = 100+i*10
-    z0 = -0.9-3.6*i
+    z0 = -0.3750-3.6*i
     offset = 13.875
     x.define_cdte_detector!(basename: "CdTeBB", detid: detid0, posx: +offset, posy: +offset, posz: z0, subid: "B0")
     x.define_cdte_detector!(basename: "CdTeBB", detid: detid0+1, posx: -offset, posy: +offset, posz: z0, subid: "B1")
@@ -95,7 +95,7 @@ def build_detectors(x)
   cdte_bottom_layers.times do |i|
     detid0 = 260+i*10
     z0 = -59.175-4.4*i
-    z1 = z0 - 1.65
+    z1 = z0 - 1.65 + 1.25
     offset = 13.875
   #  x.define_cdte_detector!(basename: "CdTeBF", detid: detid0,   posx: +offset, posy: +offset, posz: z0, subid: "B0")
   #  x.define_cdte_detector!(basename: "CdTeBF", detid: detid0+1, posx: -offset, posy: +offset, posz: z0, subid: "B1")

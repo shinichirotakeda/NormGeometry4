@@ -434,10 +434,10 @@ G4LogicalVolume* GeometryComptonCamera::Construct() {
   // CdTeBtmModule Placement ////////////////////
   G4double CdTeBtmModule_xPos = 0.0*mm;
   G4double CdTeBtmModule_yPos = 0.0*mm;
-  G4double CdTeBtmModule_offset = Plate_zPos - Plate_zSize*0.5;
+  G4double CdTeBtmModule_offset = Plate_zPos - Plate_zSize*0.5+1.25*mm;
 
   for (int i = 0; i < 16; i++) {
-    G4double CdTeBtmModule_zPos = ComptonCamera_zSize*0.5 - topcoverue2sipadue - SiPad_zSize + 0.525*mm - stackpitchsi * i;
+    G4double CdTeBtmModule_zPos = ComptonCamera_zSize*0.5 - topcoverue2sipadue - SiPad_zSize + 0.525*mm - stackpitchsi * i + 0.525*mm;
     sprintf(name, "CdTeBtmModule%02d", i);
     new G4PVPlacement(0, G4ThreeVector(CdTeBtmModule_xPos, CdTeBtmModule_yPos, CdTeBtmModule_zPos), CdTeBtmModule_Logical, name, ComptonCamera_Logical, false, i, surfaceCheck);
   }
